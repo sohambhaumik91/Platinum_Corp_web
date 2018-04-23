@@ -1,5 +1,5 @@
 <div class="container-fluid">
-	<div class="row footer">
+	<!-- <div class="row footer">
 		<div class="col-sm-3 text-left footer-separator">
 			<p class="signup-text">SIGN UP FOR OUR NEWSLETTER</p>
 			<input type="text" class="email-text" placeholder="Emter your email address" /><span class="go-button">GO ></span>
@@ -26,13 +26,13 @@
 			<p class="footer-link">New Home Buying Guide</p>
 			<p class="footer-link">New Home Buying Guide</p>
 		</div>
-	</div>
+	</div> -->
 	<div class="row zero-margin copyright">
 		<div class="col-sm-8">
 			<span class=" copyright-link">&copy;Platinum Corp. All rights reserved.</span>
-			<span class=" text-center copyright-link"> Privacy Policy </span>
+			<!-- <span class=" text-center copyright-link"> Privacy Policy </span>
 			<span class=" text-center copyright-link"> Disclaimer </span>
-			<span class=" text-center copyright-link"> Sitemap </span>	
+			<span class=" text-center copyright-link"> Sitemap </span>	 -->
 		</div>
 		<div class="col-sm-2 pull-right">
 			<div class="col-sm-2 text-center">

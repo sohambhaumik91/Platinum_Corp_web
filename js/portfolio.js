@@ -8,7 +8,6 @@ $(function() {
 
 		$.each(navs, function(index, item) {
 			var attr = $(this).attr('data-nav');
-			console.log(attr);
 			if(attr == sectionToShow) {
 				if(!$(this).hasClass('active')) {
 					$(this).addClass('active');

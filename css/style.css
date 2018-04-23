@@ -347,6 +347,7 @@ body {
 	margin: 10px 0 55px 0;
 	color:#000000;
 	font-weight: 900;
+	font-style: oblique;
 }
 .address {
 	margin: 10px 0 40px 0;
@@ -543,11 +544,11 @@ body {
 }
 /******************* Portfolio page styles ***********/
 .pc-portfolio-cover-img {
-	background: url('../images/bg_portfolio.png') no-repeat;
+	background: url('../images/portfolio-banner.png') no-repeat;
 	background-size: cover; 
 	height:600px;
 	position: relative;
-	height: 322px;
+	height: 420px;
 	/*top: 8%;*/
 }
 .pc-portfolio-cover-text {
@@ -615,6 +616,7 @@ body {
 #buy-home-body {
 	height: 1315px;
 }
+
 .pc-protfolio-projects-header {
 	font-size: 23px;
 	letter-spacing: 2px;
@@ -674,4 +676,36 @@ body {
 	width: 1px;
 	background-color: #9C2288;
 	opacity:0.6;
+}
+.portfolio-headers {
+	font-size: 35px;
+	color: #9C2288;
+}
+.pc-amenities {
+	padding-left: 0px;
+	margin:0px;
+}
+.pc-amenities li {
+	padding-left: 15px;
+	list-style-type: none;
+	position: relative;
+	margin-top: 15px;
+}
+.pc-amenities li:before {
+	position: absolute;
+	top: 50%;
+	left:0%;
+	content:'';
+	display: inline-block;
+	height: 5px;
+	width:5px;
+	background-color: #9C2288;
+	border-radius: 50%;
+	transform: translateY(-50%);
+}
+.nav-option.completed {
+	padding: 0 30px 30px 30px;
+}
+.portfolio-img {
+	max-width: 100%;
 }
