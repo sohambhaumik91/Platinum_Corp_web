@@ -25,5 +25,6 @@ $(function() {
         fade: true  
     }	
     $("#testimonial-slider").slick(testimonialSliderOptions);
+    $("#awards-slider").slick(testimonialSliderOptions);
 	
 })

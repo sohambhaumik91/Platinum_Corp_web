@@ -47,6 +47,9 @@
 			<div class="col-sm-2 text-center">
 				<img src="images/footer-fb.png" class="footer-social-media-img"/>
 			</div>
+			<div class="col-sm-2 text-center">
+				<img src="images/footer-linkedin.png" class="footer-social-media-img" style="width:540%"/>
+			</div>
 		</div>
 	</div>
 </div>

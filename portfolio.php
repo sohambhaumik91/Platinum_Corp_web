@@ -149,9 +149,20 @@
 						</div>
 					</div>
 				</div>
-				<div class="row nav-option" data-nav="completed">
-					<div class="col-sm-6 text-center">
-						
+				<div class="row nav-option completed" data-nav="completed">
+					<div class="col-sm-6">
+						<p>Lords is an imposing multi-storied tower in the Bhandup-Nahur belt, a hot bed of residential real estate in Eastern Suburbs of Mumbai. It is located off L.B.S. Road, adjacent to CEAT Tyres, Village Road, Bhandup West. It is a walking distance to Nahur Railway Station.</p>
+						<br>
+						 <p>Lords is developed on a land area of 7,500 sq. mtrs. The complex comprises of 68 units of 1BHK & 200 units of 2BHK residential flats with all modern amenities and fittings. It is located at a short commuting distance to shopping complexes, markets, malls, hospitals, prestigious schools and places of worship.</p>
+						<ul class="pc-amenities text-left">
+							<li> Fully functional club house</li>
+							<li> Children play area located on the podium level to provide healthy living for all the children  and adults </li>
+							<li>Attractive recreation ground</li>
+							<li>"Old Folks" corner for senior citizens</li>
+							<li>  Grand entrances, well lit lobbies, high speed automatic elevators, etc.</li>
+							<li>Well-designed apartments, spacious rooms, well planned interiors, branded sanitary & CP fittings and is provided with state of the art amenities</li>
+							<li>  Dedicated four and two wheeler parking facilities for the residents.</li>
+						</ul>
 					</div>
 					
 				</div>

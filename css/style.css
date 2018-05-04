@@ -3,6 +3,10 @@ body {
 	font-family: 'Nunito Sans', sans-serif !important;
 	overflow-x: hidden;
 }
+#awards-slider .slick-slide{
+	height:auto !important;
+	border-bottom: 2px #f5f5f5 !important;
+}
 .pc-header a {
 	color: #333 ;
 }
@@ -14,6 +18,12 @@ body {
 	opacity:0;
 	transition: all 0.2s ease;
 	color: #9C2288;
+}
+.brand-color {
+	color: #9C2288;
+} 
+.facilities-text {
+	margin-top:10px;
 }
 /*********** generic styles ***************/
 .pc-contact-form input[type=text] {
@@ -75,10 +85,13 @@ body {
   display: table;
   clear: both;
 }
+.pc-logo {
+	text-align: center;
+}
 .pc-header-container {
 	display: table;
-	width: 103.2%;
-	padding-left:15px;
+	width: 104.2%;
+	/*padding-left:15px;*/
 }
 .section-bottom-spacer {
 	margin-bottom: 50px;
@@ -86,7 +99,7 @@ body {
 .pc-header-container > div {
 	float: none;
 	display: table-cell;
-	padding: 16px 0 16px 0;
+	padding: 16px 0 16px 15px;
 }
 .pc-nav-menu {
 	vertical-align: middle;
@@ -709,4 +722,73 @@ body {
 }
 .portfolio-img {
 	max-width: 100%;
+}
+.amenities {
+	display: inline-block;
+	padding-left: 20px;
+	position: relative;
+}
+.amenities.car-park::before {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 80px;
+	background: url("../images/car.png");
+	background-repeat: no-repeat;
+	background-size: 27%;
+	left:-5px;
+}
+.amenities.wifi::before {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 80px;
+	background: url("../images/wifi.png");
+	background-repeat: no-repeat;
+	background-size: 22%;
+	left:-5px;
+}
+.amenities.automation::before {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 80px;
+	background: url("../images/automation.png");
+	background-repeat: no-repeat;
+	background-size: 22%;
+	left:-5px;
+}
+.amenities.laundry::before {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 80px;
+	background: url("../images/laundry.png");
+	background-repeat: no-repeat;
+	background-size: 18%;
+	left:-5px;
+}
+.amenities.cctv::before {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 80px;
+	background: url("../images/cctv.png");
+	background-repeat: no-repeat;
+	background-size: 22%;
+	left:-5px;
+}
+.amenities.fitness::before {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 80px;
+	background: url("../images/gym.png");
+	background-repeat: no-repeat;
+	background-size: 22%;
+	left:-5px;
+}
+.tower-header {
+	color: #9C2288;
+	font-size: 24px;
 }

@@ -11,7 +11,10 @@
 		
 	</head>
 	<body>
-		<?php include("header.php") ?>
+		<div class="hidden-sm">
+			<?php include("header.php") ?>
+		</div>
+		
 		<div class="banner-content" >
 			<div class="banner-text"><p class="text-center banner-header">WELCOME TO PLATINUM CORP.</p><p class="text-center banner-subtext">Mumbai's trusted real estate investors, developers and managers. We are building a priceless lifestyle, just for you...</p></div>
 			<div class="owl-carousel owl-theme" style="position: relative;">
@@ -55,21 +58,120 @@
 					<iframe width="100%" height="50%" src="https://www.youtube.com/embed/QBeUp-Y7XZA" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
+			<div class="row section-bottom-spacer">
+				<div class="col-sm-12 pc-section-header text-center">Value homes & priceless lifestyle</div>
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+					<p class="text-center default-font-size">We invite you to experience our Hi-Tech Value Homes that have been designed keeping in mind all your comforts and conveniences for modern day living to enrich your lifestyle.</p><br><br>
+					<p class="text-center default-font-size">A "Value Home" is a masterpiece of spatial innovation; meticulously planned and ergonomically designed, to provide you with optimum funcrionality and space utilization, so that you only pay for what you use.</p>
+					<p class="text-center top-spacer">
+						<strong class="brand-color">Our concept of Value Homes is summarized in our slogans:</strong>
+						<br>
+						<br>
+						<br>
+						<strong>"2BHK for the price of 1BHK"<br><br> "Priceless Lifestyle"</strong>
+						<br><br>
+						<strong class="brand-color">We have redefined the five elements of contemporary living:</strong>
+					</p>
+				</div>
+				
+			</div>
+			<div class="row tables section-bottom-spacer">
+				<div class="col-sm-1"></div>
+				<div class="col-sm-2 text-center">
+					<img class="award-img" style="vertical-align: bottom;" src="images/location.png"/>
+					<p class="Facilities-text">Prime Location</p>
+				</div>
+				<div class="col-sm-2 text-center">
+					<img class="award-img" style="vertical-align: bottom;" src="images/spatial.png"/>
+					<p class="Facilities-text">Spatial Innovation</p>
+				</div>
+				<div class="col-sm-2 text-center">
+					<img class="award-img" style="vertical-align: bottom;" src="images/quality.png"/>
+					<p class="Facilities-text">Quality Construction</p>
+				</div>
+				<div class="col-sm-2 text-center">
+					<img class="award-img" style="vertical-align: bottom;" src="images/tech.png"/>
+					<p class="Facilities-text">	Hi-Tech Facilities</p>
+				</div>
+				<div class="col-sm-2 text-center">
+					<img class="award-img" style="vertical-align: bottom;" src="images/payment.png"/>
+					<p class="Facilities-text">Easy Payment Plans</p>
+				</div>
+
+			</div>
 			<div class="row top-spacer">
 				<div class="col-sm-12 text-center pc-section-header">Our efforts don't go unnoticed</div>
 			</div>
-			<div class="row tables section-bottom-spacer">
-				<div class="col-sm-3 text-center table-centered">
-					<img src="images/trophy.png" class="award-img"/>
+			<div id="awards-slider">
+				<div class="row tables section-bottom-spacer">
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/trophy.png" class="award-img"/>
+					</div>
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/a1.png" class="award-img"/>
+					</div>
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/a2.png" class="award-img"/>
+					</div>
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/a3.png" class="award-img"/>
+					</div>
 				</div>
-				<div class="col-sm-3 text-center table-centered">
-					<img src="images/real-estate-icons.png" class="award-img"/>
+				<div class="row tables section-bottom-spacer">
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/trophy.png" class="award-img"/>
+					</div>
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/a4.png" class="award-img"/>
+					</div>
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/a5.png" class="award-img"/>
+					</div>
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/a6.png" class="award-img"/>
+					</div>
 				</div>
-				<div class="col-sm-3 text-center table-centered">
-					<img src="images/times.png" class="award-img"/>
+				<div class="row tables section-bottom-spacer">
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/trophy.png" class="award-img"/>
+					</div>
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/a7.png" class="award-img"/>
+					</div>
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/a8.png" class="award-img"/>
+					</div>
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/a9.png" class="award-img"/>
+					</div>
 				</div>
-				<div class="col-sm-3 text-center table-centered">
-					<img src="images/national-awards.png" class="award-img"/>
+				<div class="row tables section-bottom-spacer">
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/trophy.png" class="award-img"/>
+					</div>
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/a10.png" class="award-img"/>
+					</div>
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/a11.png" class="award-img"/>
+					</div>
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/a12.png" class="award-img"/>
+					</div>
+				</div>
+				<div class="row tables section-bottom-spacer">
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/trophy.png" class="award-img"/>
+					</div>
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/a13.png" class="award-img"/>
+					</div>
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/a14.png" class="award-img"/>
+					</div>
+					<div class="col-sm-3 text-center table-centered">
+						<img src="images/a15.png" class="award-img"/>
+					</div>
 				</div>
 			</div>
 			<div class="row">
@@ -78,35 +180,35 @@
 			<div id="testimonial-slider" class="section-bottom-spacer">
 
 				<div class="review text-center">
-					<p class="review-text"><strong>I feel glad to be associated with Platinum Corp.& their various real estate ventures. We have found them to be a truly professional team. They are straight forward in their approach. We value our professional association with the group.</strong></p>
+					<p class="review-text">I feel glad to be associated with Platinum Corp.& their various real estate ventures. We have found them to be a truly professional team. They are straight forward in their approach. We value our professional association with the group.</p>
 					<p class="text-center reviewer">
 						<strong>Architect Hafeez Contractor</strong>
 					</p>
 				</div>
 
 				<div class="review text-center">
-					<p class="review-text"><strong>Platinum Corp. has come across as a truly professional developer. Though the Promoters are young, they have shown tremendous maturity & responsibility which has instilled a great amount of faith of all of us in them.</strong></p>
+					<p class="review-text">Platinum Corp. has come across as a truly professional developer. Though the Promoters are young, they have shown tremendous maturity & responsibility which has instilled a great amount of faith of all of us in them.</p>
 					<p class="text-center reviewer">
 						<strong>Mr. Harish P. Alva ‐ Chairman of Samudradarshan CHSL</strong>
 					</p>
 				</div>
 				
 				<div class="review text-center">
-					<p class="review-text"><strong>I have known them for over 10 years now. They are a rare combination of professionalism & entrepreneurship. We have associated together on a lot of projects. I am thankful to them for shaping some of Mayfair's projects into true landmarks..</strong></p>
+					<p class="review-text">I have known them for over 10 years now. They are a rare combination of professionalism & entrepreneurship. We have associated together on a lot of projects. I am thankful to them for shaping some of Mayfair's projects into true landmarks..</p>
 					<p class="text-center reviewer">
 						<strong>Mr. Shubhamkar Mitra ‐ Director Jones Lang Lassalle India Pvt. Ltd</strong>
 					</p>
 				</div>	
 
 				<div class="review text-center">
-					<p class="review-text"><strong>I have known them for many years. I have seen them grow from smart professionals to savvy businessmen. I am glad to be associated with them for some of our larger real estate ventures. My blessings and best wishes would always remain with them.</strong></p>
+					<p class="review-text">I have known them for many years. I have seen them grow from smart professionals to savvy businessmen. I am glad to be associated with them for some of our larger real estate ventures. My blessings and best wishes would always remain with them.</p>
 					<p class="text-center reviewer">
 						<strong>Mr. Rajinder Miglani ‐ Chairman of Uttam Galva Steels Ltd.</strong>
 					</p>
 				</div>
 
 				<div class="review text-center">
-					<p class="review-text"><strong>II feel glad to be associated with Platinum Corp. & their various real estate ventures. We have found them to be a truly professional team. They are straight forward in their approach. We value our professional association with the group.</strong></p>
+					<p class="review-text">II feel glad to be associated with Platinum Corp. & their various real estate ventures. We have found them to be a truly professional team. They are straight forward in their approach. We value our professional association with the group.</p>
 					<p class="text-center reviewer">
 						<strong>Mr. Nayan A. Shah ‐ CEO of Mayfair Housing</strong>
 					</p>
@@ -122,9 +224,10 @@
 						<p class="contact-header">
 							<strong>Platnium Corp. Corporate Office</strong>
 						</p>
-						<div class="pc-map-content">
+						<!-- <div class="pc-map-content">
 							<img src="images/platinum-map.png"/>
-						</div>
+						</div> -->
+						<iframe src="https://www.google.com/maps/d/u/2/embed?mid=1yYjf_xtuOPKcY5LH1ogX8tjROI4jwmK9" width="100%" height="355"></iframe>
 						<p class="address">8th Floor, Peninsula Heights<br> C.D. Barfiwala Marg, Juhu Lane,<br> Andheri (West), Mumbai - 4000058.</p>
 					</div>
 				</div>
