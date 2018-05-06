@@ -761,6 +761,11 @@
 		<script src="js/portfolio.js"></script>		
 		<script type="text/javascript">
 			var myLazyLoad = new LazyLoad();
+			$(function() {
+				$(".success-btn").on('click', function() {
+					window.location.href = '/buy-a-home.php';
+				})
+			})
 		</script>
 	</body>
 </html>

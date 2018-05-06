@@ -181,7 +181,9 @@
 	</script>
 	<script type="text/javascript">
 		$(function() {
-			
+			$(".ongoing-img").on('click', function() {
+				window.location.href = '/platinum-towers.php';
+			})
 		});
 	</script>
 </html>

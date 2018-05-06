@@ -44,8 +44,15 @@
 		<div class="pc-header-spacer"></div>
 		<div class="pc-buy-home-cover-img">
 			<div class="buy-home-form">
-				<div class="container-fluid" style="padding-top: 30px;">
-					<div class="row">
+				<div class="buy-home-success">
+					<img src ="images/buy-success.png" class="buy-success"/>
+					<div>
+						<p class='text-center download-pdf life' >Download Brochure for Platinum Life</p>
+						<p class='text-center download-pdf' >Download Brochure for Platinum Towers</p>
+					</div>
+				</div>
+				<div class="container-fluid buy-form-form" style="padding-top: 30px;">
+					<div class="row">	
 						<div class="col-sm-12">
 							<p class="text-center pc-buy-home-form-header">Thank You For Expressing Your Interest in Platinum Corp.</p>
 							<br>
@@ -56,7 +63,7 @@
 						<form class="buy-form">
 							<div class="col-sm-6 pad-form">
 								<span>Your Name</span>*
-								<input type="text" id="name"/>
+									<input type="text" id="name"/>
 							</div>
 							<div class="col-sm-6 pad-form">
 								<span>Your Surname</span>*
@@ -68,22 +75,35 @@
 								<input type="text" id="contact"/>
 							</div>
 							<div class="col-sm-6 pad-form">
-								<span>E-mail ID</span>*
+								<span>E-mail ID</span>
 								<input type="text" id="email"/>
 							</div>
 							<div class="clearfix"></div>
 							<div class="col-sm-6 pad-form">
 								<span>Which property are you interested in?</span>*
-								<input type="text" id="property"/>
+								<select id="property" class="browser-default">
+									<option value="1 BHK">1 BHK</option>
+									<option value="2 BHK">2 BHK</option>
+									<option value="3 BHK">3 BHK</option>
+								</select>
 							</div>
 							<div class="col-sm-6 pad-form">
 								<span>Your Budget</span>*
-								<input type="text" id="budget"/>
+								<select id="budget" class="browser-default">
+									<option value="Under 1 Cr.">Under 1 Cr.</option>
+									<option value="1cr. - 2cr">1Cr. - 2 Cr. </option>
+									<option value="2Cr. - 3Cr">2Cr. - 3Cr</option>
+									<option value="Above 3Cr.">Above 3Cr.</option>
+								</select>
 							</div>
 							<div class="clearfix"></div>
 							<div class="col-sm-6 pad-form">
 								<span>How did you find put about Platinum Corp?</span>*
-								<input type="text" id="pc-lead"/>
+								<select id="pc-lead" class="browser-default">
+									<option value="Newapaper">Newapaper</option>	
+									<option value="Hoardings">Hoardings</option>	
+									<option value="Online">Online</option>	
+								</select>
 							</div>
 							
 							
@@ -92,8 +112,7 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-6 pad-form">
-							<button  id="submit-contact-form">Submit & Download Brochure</button>
-							<span id="success-msg"> Your response has beem recorded </span>
+							<button  id="submit-contact-form">Submit</button>
 						</div>
 					</div>
 				</div>
@@ -110,8 +129,14 @@
 		var iFrameSubmitted = false;
 		var iFrameCounter = 0;
 		$(function() {
-			$("#download-pdf").on('click', function() {
-				downloadFile('ad.pdf');
+			$(".download-pdf").on('click', function() {
+				console.log("clicked");
+				if($(this).hasClass('life')) {
+					downloadFile('Platinum_Life.pdf')
+				}
+				else {
+					downloadFile('Platinum_Towers.pdf')
+				}
 			});
 		});
 
@@ -170,7 +195,7 @@
 				var budget = $("#budget").val();
 				var lead = $("#pc-lead").val();
 
-				// console.log(name, email, phone, company, message);
+				console.log(name, email, surname, phone, email, property, budget, lead);
 				var MyIFrame = document.getElementById("myFrame");
 				MyIFrame.src = 'buy-home-form.html';
 				if(name.length > 0 && surname.length > 0 && phone.length > 0 && email.length > 0 && property.length > 0 && budget.length > 0 && lead.length > 0) {
@@ -188,12 +213,8 @@
 
 						MyIFrameDoc.getElementById("pc-buy-home-form").submit();
 						iFrameSubmitted = true;
-						
-						document.getElementById("success-msg").style.opacity = 1;
-						setTimeout(function(){
-							document.getElementById("success-msg").style.opacity = 0;
-						}, 4000);
-						downloadFile('Platinum_Towers.pdf');
+						$(".buy-home-success").show();
+						$(".buy-form-form").css({'opacity':0});
 					}
 					else {
 						if(!validateForPhone(phone)) {
@@ -218,6 +239,7 @@
 			var pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/; 
 			return pattern.test(emailString);
 		}
+
 
 	</script>
 </html>
