@@ -792,3 +792,25 @@ body {
 	color: #9C2288;
 	font-size: 24px;
 }
+.large-text {
+	font-size: 24px;
+}
+.danger {
+	color: red;
+}
+.apartment-row {
+	padding: 15px 0 15px 0;
+}
+.header-border {
+	border: 1px solid #9C2288;
+	opacity:0.2;
+}
+.success-btn {
+    background-color: #3C833E;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    border: none;
+    padding: 8px 20px 8px 20px;
+    border-radius: 8px;
+}
