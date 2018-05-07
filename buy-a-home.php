@@ -54,9 +54,9 @@
 				<div class="container-fluid buy-form-form" style="padding-top: 30px;">
 					<div class="row">	
 						<div class="col-sm-12">
-							<p class="text-center pc-buy-home-form-header">Thank You For Expressing Your Interest in Platinum Corp.</p>
+							<p class="text-center pc-buy-home-form-header">Tell us a little bit more about yourself so that we can help you better!</p>
 							<br>
-							<p class="text-center pc-buy-home-subtext">Tell us a little bit more about yourself so that we can help you better.</p>
+							<!-- <p class="text-center pc-buy-home-subtext">Tell us a little bit more about yourself so that we can help you better.</p> -->
 						</div>
 					</div>
 					<div class="row">

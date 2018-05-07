@@ -29,7 +29,7 @@
 	</div> -->
 	<div class="row zero-margin copyright">
 		<div class="col-sm-8">
-			<span class=" copyright-link">&copy;Platinum Corp. All rights reserved.</span>
+			<span class=" copyright-link">&copy; Platinum Corp. 2018. All rights reserved.</span>
 			<!-- <span class=" text-center copyright-link"> Privacy Policy </span>
 			<span class=" text-center copyright-link"> Disclaimer </span>
 			<span class=" text-center copyright-link"> Sitemap </span>	 -->

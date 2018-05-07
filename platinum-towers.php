@@ -8,7 +8,7 @@
 		<link href="lib/slick/slick-theme.css" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 	</head>
-	<body>
+	<body id="platinum-towers">
 		<?php include("header.php") ?>
 		<div class="pc-header-spacer"></div>
 		<div class="container-fluid">
@@ -35,7 +35,7 @@
 										<p class="tower-header"> Platinum Tower 1</p>
 									</div>
 									<div class="col-sm-12">
-										<p><strong> MahaRERA Reg. No. P51800000654</strong></p>
+										<p><strong> MahaRERA Reg. No. P51800000487</strong></p>
 										<p><strong>Available at:<a href="http://maharera.mahaonline.gov.in"> http://maharera.mahaonline.gov.in</a></strong></p>
 									</div>
 									<div class="col-sm-12">
@@ -67,13 +67,17 @@
 									</p>
 									<br><br>
 									<p>
-										<strong>Possession Date: 19th June, 2018</strong>
+										<strong>Possession Date: March 2020</strong>
 									</p>
 									</div>
 									
 								</div>
 							</div>
+							<div class="col-sm-6 text-center">
+								<img src="images/pt1.png"/>
+							</div>
 						</div>
+
 					</div>
 					<div class="pc-all-properties">
 						<div class="row top-spacer">
@@ -114,12 +118,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>309/336 Sq. Ft</span>
+									<span>309 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;49,00,000</span>
+									<span>&#x20b9;98,88,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -136,12 +140,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>366 Sq. Ft</span>
+									<span>330 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;59,00,000</span>
+									<span>&#x20b9;105,60,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -158,12 +162,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>450 Sq. Ft</span>
+									<span>450 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;65,00,000</span>
+									<span>&#x20b9;144,00,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -180,17 +184,17 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>550 Sq. Ft</span>
+									<span>580 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;75,00,000</span>
+									<span>&#x20b9;185,60,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class=" text-center">
-									<span class="danger">SOLD OUT</span>
+									<button class="success-btn">BOOK NOW</button>
 								</p>
 							</div>
 						</div>		
@@ -216,7 +220,7 @@
 										<p class="tower-header"> Platinum Tower 4</p>
 									</div>
 									<div class="col-sm-12">
-										<p><strong> MahaRERA Reg. No. P51800000654 </strong></p>
+										<p><strong> MahaRERA Reg. No. P51800000494 </strong></p>
 										<p><strong>Available at:<a href="http://maharera.mahaonline.gov.in"> http://maharera.mahaonline.gov.in</a></strong></p>
 									</div>
 									<div class="col-sm-12">
@@ -244,15 +248,22 @@
 										</div>
 									</div>
 									<div class="col-sm-12 top-spacer"><p>
-										Affordable, serene and well connected. At Platinum Tower 1 we've taken contemporary living to whole new level, providing an environment that's perfectly suited to your family’s lifestyle. Tower 1 is an incomparable 16 storeys project. It has semi-furnished flats with multi-level automated basement parkings. Tower 1 is located right beside the huge open ground of Bhavan’s College. It is at a 2 minute walking distance to D.N. Nagar Metro Station. If you are looking for the best in Andheri West, affordable lifestyle and amenities, you will find it here.
+									Platinum Towers Tower 4 offers competitive rates as compared to other projects in the vicinity. Every square foot here is planned to give maximum utility and is planned to reflect chic and style. It is a 16 storey project - with semi-furnished flats and multi-level automated basement parkings.<br>
+                                        <br>
+                                        A 2 min walk to D.N. Nagar Metro Station and in the lane opposite to the Versova Police Station, it is an attractive location for residential projects. A beautiful experience for your family, everything that takes care of your happiness.
+
+ 
 									</p>
 									<br><br>
 									<p>
-										<strong>Possession Date: 19th June, 2018</strong>
+										<strong>Possession Date: September 2019</strong>
 									</p>
 									</div>
 
 								</div>
+							</div>
+							<div class="col-sm-6 text-center">
+								<img src="images/pt4.png"/>
 							</div>
 						</div>
 					</div>
@@ -295,12 +306,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>309/336 Sq. Ft</span>
+									<span>309 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;49,00,000</span>
+									<span>&#x20b9;98,88,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -317,12 +328,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>366 Sq. Ft</span>
+									<span>330 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;59,00,000</span>
+									<span>&#x20b9;105,60,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -339,12 +350,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>450 Sq. Ft</span>
+									<span>450 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;65,00,000</span>
+									<span>&#x20b9;144,00,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -361,17 +372,17 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>550 Sq. Ft</span>
+									<span>580 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;75,00,000</span>
+									<span>&#x20b9;185,60,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class=" text-center">
-									<span class="danger">SOLD OUT</span>
+									<button class="success-btn">BOOK NOW</button>
 								</p>
 							</div>
 						</div>		
@@ -402,7 +413,7 @@
 										<p><strong>Available at:<a href="http://maharera.mahaonline.gov.in"> http://maharera.mahaonline.gov.in</a></strong></p>
 									</div>
 									<div class="col-sm-12">
-										<div class="row">
+                                        <div class="row top-spacer">
 											<div class="col-sm-4">
 												<span class="amenities wifi">Wi-Fi enabled</span>
 											</div>
@@ -431,10 +442,13 @@
 
 									<br><br>
 									<p>
-										<strong>Possession Date: 19th June, 2018</strong>
+										<strong>Possession Date: June 2019</strong>
 									</p>
 									</div>
 								</div>
+							</div>
+							<div class="col-sm-6 text-center">
+								<img src="images/pt7.png"/>
 							</div>
 						</div>
 					</div>
@@ -477,12 +491,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>309/336 Sq. Ft</span>
+									<span>309 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;49,00,000</span>
+									<span>&#x20b9;98,88,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -499,12 +513,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>366 Sq. Ft</span>
+									<span>330 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;59,00,000</span>
+									<span>&#x20b9;105,60,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -512,7 +526,33 @@
 									<button class="success-btn"> BOOK NOW</button>
 								</p>
 							</div>
+                            
 						</div>
+                        
+                        <div class="row apartment-row">
+							<div class="col-sm-3">
+								<p class="text-center">
+									<span>1 BHK GRANDE +</span>
+								</p>
+							</div>
+							<div class="col-sm-3">
+								<p class="text-center">
+									<span>366 sq. ft</span>
+								</p>
+							</div>
+							<div class="col-sm-3">
+								<p class="text-center">
+									<span>&#x20b9;117,12,000</span>
+								</p>
+							</div>
+							<div class="col-sm-3">
+								<p class=" text-center">
+									<button class="success-btn"> BOOK NOW</button>
+								</p>
+							</div>
+                            
+						</div>
+                        
 						<div class="row apartment-row">
 							<div class="col-sm-3">
 								<p class="text-center">
@@ -521,12 +561,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>450 Sq. Ft</span>
+									<span>450 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;65,00,000</span>
+									<span>&#x20b9;144,00,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -543,17 +583,17 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>550 Sq. Ft</span>
+									<span>585 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;75,00,000</span>
+									<span>&#x20b9;187,20,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class=" text-center">
-									<span class="danger">SOLD OUT</span>
+									<button class="success-btn">BOOK NOW</button>
 								</p>
 							</div>
 						</div>		
@@ -579,7 +619,7 @@
 										<p class="tower-header"> Platinum Tower 31</p>
 									</div>
 									<div class="col-sm-12">
-										<p><strong> MahaRERA Reg. No. P51800000654</strong></p>
+										<p><strong> MahaRERA Reg. No. P51800001759</strong></p>
 										<p><strong>Available at:<a href="http://maharera.mahaonline.gov.in"> http://maharera.mahaonline.gov.in</a></strong></p>
 									</div>
 									<div class="col-sm-12">
@@ -611,10 +651,13 @@
 									</p>
 									<br><br>
 									<p>
-										<strong>Possession Date: 19th June, 2018</strong>
+										<strong>Possession Date: June 2021</strong>
 									</p>
 									</div>
 								</div>
+							</div>
+							<div class="col-sm-6 text-center">
+								<img src="images/pt31.png"/>
 							</div>
 						</div>
 					</div>
@@ -657,12 +700,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>309/336 Sq. Ft</span>
+									<span>309 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;49,00,000</span>
+									<span>&#x20b9;112,78,500</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -679,12 +722,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>366 Sq. Ft</span>
+									<span>330 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;59,00,000</span>
+									<span>&#x20b9;120,45,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -701,12 +744,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>450 Sq. Ft</span>
+									<span>450 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;65,00,000</span>
+									<span>&#x20b9;164,25,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -723,17 +766,17 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>550 Sq. Ft</span>
+									<span>580 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;75,00,000</span>
+									<span>&#x20b9;211,70,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class=" text-center">
-									<span class="danger">SOLD OUT</span>
+									<button class="success-btn">BOOK NOW</button>
 								</p>
 							</div>
 						</div>		

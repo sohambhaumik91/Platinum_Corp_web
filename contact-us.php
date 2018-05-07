@@ -102,33 +102,61 @@
 									<div class="row zero-margin  pad-container">
 										<div class="col-sm-12">
 											<p class="contact-right-form-header">
-												<span>CORPORATE &nbsp &nbsp /</span>
-												<span>&nbsp &nbspSALES</span>
+												<span class="active nav-link" data-rel="corporate">CORPORATE &nbsp &nbsp /</span>
+												<span class="nav-link" data-rel="sales">&nbsp &nbspSALES</span>
 											</p>
 										</div>
 									</div>
-									<div class="row zero-margin">
-										<div class="col-sm-12">
-											<p class="contact-right-form-header">
-												<strong>Address</strong>
-											</p>
-											<p>8th Floor, Peninsula Heights,<br> C.D. Barfiwala Marg, Juhu Lane,<br> Andheri (West), Mumbai - 4000058.</p>
+									<div class="active corporate contact-details" data-nav="corporate">
+										<div class="row zero-margin">
+											<div class="col-sm-12">
+												<p class="contact-right-form-header">
+													<strong>Address</strong>
+												</p>
+												<p>8th Floor, Peninsula Heights,<br> C.D. Barfiwala Marg, Juhu Lane,<br> Andheri (West), Mumbai - 4000058.</p>
+											</div>
+										</div>
+										<div class="row zero-margin">
+											<div class="col-sm-12">
+												<p class="contact-right-form-header">
+													<strong>Telephone</strong>
+												</p>
+												<p>+91 (22) 2621 6000</p>
+											</div>
+										</div>
+										<div class="row zero-margin pc-padder last-detail">
+											<div class="col-sm-12">
+												<p class="contact-right-form-header">
+													<strong>Email Address</strong>
+												</p>
+												<p>info@platinumcorp.in</p>
+											</div>
 										</div>
 									</div>
-									<div class="row zero-margin">
-										<div class="col-sm-12">
-											<p class="contact-right-form-header">
-												<strong>Telephone</strong>
-											</p>
-											<p>+91 (22) 2621 6000</p>
+									<div class="sales contact-details" data-nav="sales">
+										<div class="row zero-margin">
+											<div class="col-sm-12">
+												<p class="contact-right-form-header">
+													<strong> Sales Address</strong>
+												</p>
+												<p>1st Floor, Platinum Tower 7,<br> Tirupati CHSL, Off J P. Road, D. N. Nagar,<br> Andheri (West), Mumbai - 400053.</p>
+											</div>
 										</div>
-									</div>
-									<div class="row zero-margin pc-padder last-detail">
-										<div class="col-sm-12">
-											<p class="contact-right-form-header">
-												<strong>Email Address</strong>
-											</p>
-											<p>info@platinumcorp.in</p>
+										<div class="row zero-margin">
+											<div class="col-sm-12">
+												<p class="contact-right-form-header">
+													<strong>Telephone</strong>
+												</p>
+												<p>+91 (22) 2621 6000</p>
+											</div>
+										</div>
+										<div class="row zero-margin pc-padder last-detail">
+											<div class="col-sm-12">
+												<p class="contact-right-form-header">
+													<strong>Email Address</strong>
+												</p>
+												<p>info@platinumcorp.in</p>
+											</div>
 										</div>
 									</div>
 									<div class="row pc-social-media zero-margin">
@@ -240,6 +268,24 @@
 			 var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(emailString).toLowerCase());
 		}
+
+		$(".nav-link").on('click', function(e) {
+			$(".nav-link").removeClass('active');
+			$(this).addClass('active');
+
+			var divToShow = $(this).attr('data-rel');
+			console.log(divToShow);
+
+			var contactDetails = $(".contact-details")
+			
+			$.each(contactDetails, function(index, item) {
+				$(this).removeClass('active');
+				if($(this).attr('data-nav') == divToShow) {
+					$(this).addClass('active');
+				}
+			});
+
+		});
 
     </script>
 	

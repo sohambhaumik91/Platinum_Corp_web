@@ -43,7 +43,7 @@
 					<div class="col-sm-6 text-center">
 						<div class="row">
 							<div class="col-sm-offset-2 col-sm-8">
-								<img data-src="/images/pt-towers.png" class="ongoing-img platinum-towers"/>
+								<img data-src="/images/pt-towers.png" class="ongoing-img"/>
 							</div>
 						</div>
 						
@@ -51,7 +51,7 @@
 					<div class="col-sm-6 text-center">
 						<div class="row">
 							<div class="col-sm-offset-2 col-sm-8">
-								<img data-src="/images/ongoing2.png" class="ongoing-img platinum-life"/>
+								<img id="platinum-life" data-src="/images/ongoing2.png" class="ongoing-img"/>
 							</div>
 						</div>
 					</div>
@@ -156,13 +156,34 @@
 						 <p>Lords is developed on a land area of 7,500 sq. mtrs. The complex comprises of 68 units of 1BHK & 200 units of 2BHK residential flats with all modern amenities and fittings. It is located at a short commuting distance to shopping complexes, markets, malls, hospitals, prestigious schools and places of worship.</p>
 						<ul class="pc-amenities text-left">
 							<li> Fully functional club house</li>
-							<li> Children play area located on the podium level to provide healthy living for all the children  and adults </li>
+							<li> Children play area located on the podium level to provide healthy living for all the children   and adults </li>
 							<li>Attractive recreation ground</li>
 							<li>"Old Folks" corner for senior citizens</li>
 							<li>  Grand entrances, well lit lobbies, high speed automatic elevators, etc.</li>
 							<li>Well-designed apartments, spacious rooms, well planned interiors, branded sanitary & CP fittings and is provided with state of the art amenities</li>
 							<li>  Dedicated four and two wheeler parking facilities for the residents.</li>
 						</ul>
+					</div>
+					<div class="col-sm-1"></div>
+					<div class="col-sm-5 text-center completed-gallery">
+						<div class="col-sm-4 gal-container">
+							<img src="images/Mask Group 1.png"/>
+						</div>
+						<div class="col-sm-4 gal-container">
+							<img src="images/Mask Group 2.png"/>
+						</div>
+						<div class="col-sm-4 gal-container">
+							<img src="images/Mask Group 3.png"/>
+						</div>
+						<div class="col-sm-4 gal-container">
+							<img src="images/Mask Group 4.png"/>
+						</div>
+						<div class="col-sm-4 gal-container">
+							<img src="images/Mask Group 5.png"/>
+						</div>
+						<div class="col-sm-4 gal-container">
+							<img src="images/Mask Group 6.png"/>
+						</div>
 					</div>
 					
 				</div>
@@ -181,12 +202,17 @@
 	</script>
 	<script type="text/javascript">
 		$(function() {
-			$(".ongoing-img.platinum-towers").on('click', function() {
+			$(".ongoing-img").on('click', function() {
 				window.location.href = '/platinum-towers.php';
 			})
-			$(".ongoing-img.platinum-life").on('click', function() {
+		});
+	</script>
+    <script type="text/javascript">
+		$(function() {
+			$("#platinum-life").on('click', function() {
 				window.location.href = '/platinum-life.php';
 			})
 		});
 	</script>
+    
 </html>

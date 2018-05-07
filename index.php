@@ -78,23 +78,23 @@
 			<div class="row tables section-bottom-spacer">
 				<div class="col-sm-1"></div>
 				<div class="col-sm-2 text-center">
-					<img class="award-img" style="vertical-align: bottom;" src="images/location.png"/>
+					<img class="award-img home-page-icons" style="vertical-align: bottom;" src="images/location.png"/>
 					<p class="Facilities-text">Prime Location</p>
 				</div>
 				<div class="col-sm-2 text-center">
-					<img class="award-img" style="vertical-align: bottom;" src="images/spatial.png"/>
+					<img class="award-img home-page-icons" style="vertical-align: bottom;" src="images/spatial.png"/>
 					<p class="Facilities-text">Spatial Innovation</p>
 				</div>
 				<div class="col-sm-2 text-center">
-					<img class="award-img" style="vertical-align: bottom;" src="images/quality.png"/>
+					<img class="award-img home-page-icons" style="vertical-align: bottom;" src="images/quality.png"/>
 					<p class="Facilities-text">Quality Construction</p>
 				</div>
 				<div class="col-sm-2 text-center">
-					<img class="award-img" style="vertical-align: bottom;" src="images/tech.png"/>
+					<img class="award-img home-page-icons" style="vertical-align: bottom;" src="images/tech.png"/>
 					<p class="Facilities-text">	Hi-Tech Facilities</p>
 				</div>
 				<div class="col-sm-2 text-center">
-					<img class="award-img" style="vertical-align: bottom;" src="images/payment.png"/>
+					<img class="award-img home-page-icons" style="vertical-align: bottom;" src="images/payment.png"/>
 					<p class="Facilities-text">Easy Payment Plans</p>
 				</div>
 
@@ -227,7 +227,7 @@
 						<!-- <div class="pc-map-content">
 							<img src="images/platinum-map.png"/>
 						</div> -->
-						<iframe src="https://www.google.com/maps/d/u/2/embed?mid=1yYjf_xtuOPKcY5LH1ogX8tjROI4jwmK9" width="100%" height="355"></iframe>
+						<iframe width="100%" height="355" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=8th%20Floor%2C%20Peninsula%20Heights%2C%20C.D.%20Barfiwala%20Marg%2C%20Juhu%20Lane%2C%20Andheri%20(W)%2C%20Zalawad%20Nagar%2C%20Ganga%20Vihar%2C%20Andheri%20West%2C%20Mumbai%2C%20Maharashtra%20400058+(Platinum%20Corp.)&ie=UTF8&t=&z=14&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 						<p class="address">8th Floor, Peninsula Heights<br> C.D. Barfiwala Marg, Juhu Lane,<br> Andheri (West), Mumbai - 4000058.</p>
 					</div>
 				</div>
@@ -237,9 +237,10 @@
 						<p class="contact-header">
 							<strong>Platnium Corp. Sales Office</strong>
 						</p>
-						<div class="pc-map-content">
+						<!-- <div class="pc-map-content">
 							<img src="images/platinum-map.png"/>
-						</div>
+						</div> -->
+						<iframe width="100%" height="355" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Next%20to%20Deep%20Towers%2C%20Idgah%20Lane%20Wadiya%20School%20Lane%2C%20D.N.Nagar%2C%20Andheri%20West%2C%20Mumbai%2C%20Maharashtra%20400053+(Platinum%20Corp%20Sales)&ie=UTF8&t=&z=14&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"> </iframe>
 						<p class="address">1st Floor, Platinum Tower 7,<br> Tirupati CHSL, Off J P. Road, D. N. Nagar,<br> Andheri (West), Mumbai - 400053.</p>
 					</div>
 				</div>
