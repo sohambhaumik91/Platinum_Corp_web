@@ -43,7 +43,7 @@
 					<div class="col-sm-6 text-center">
 						<div class="row">
 							<div class="col-sm-offset-2 col-sm-8">
-								<img data-src="/images/pt-towers.png" class="ongoing-img"/>
+								<img data-src="/images/pt-towers.png" class="ongoing-img platinum-towers"/>
 							</div>
 						</div>
 						
@@ -51,7 +51,7 @@
 					<div class="col-sm-6 text-center">
 						<div class="row">
 							<div class="col-sm-offset-2 col-sm-8">
-								<img data-src="/images/ongoing2.png" class="ongoing-img"/>
+								<img data-src="/images/ongoing2.png" class="ongoing-img platinum-life"/>
 							</div>
 						</div>
 					</div>
@@ -181,8 +181,11 @@
 	</script>
 	<script type="text/javascript">
 		$(function() {
-			$(".ongoing-img").on('click', function() {
+			$(".ongoing-img.platinum-towers").on('click', function() {
 				window.location.href = '/platinum-towers.php';
+			})
+			$(".ongoing-img.platinum-life").on('click', function() {
+				window.location.href = '/platinum-life.php';
 			})
 		});
 	</script>

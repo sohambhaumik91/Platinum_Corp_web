@@ -21,10 +21,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="pc-logo col-sm-3">
+			<div id="pc-logo" class="pc-logo col-sm-3">
 				<img style="max-width: 40%;" src="images/pc-logo.png"/>
 			</div>
 			
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+	var redirToHome = document.getElementById("pc-logo");
+	redirToHome.onclick = function() {
+		window.location.href = "/";
+	}
+
+</script>

@@ -62,11 +62,11 @@
 					<div class="row">
 						<form class="buy-form">
 							<div class="col-sm-6 pad-form">
-								<span>Your Name</span>*
+								<span>Name</span>*
 									<input type="text" id="name"/>
 							</div>
 							<div class="col-sm-6 pad-form">
-								<span>Your Surname</span>*
+								<span>Surname</span>*
 								<input type="text" id="surname"/>
 							</div>
 							<div class="clearfix"></div>
@@ -88,7 +88,7 @@
 								</select>
 							</div>
 							<div class="col-sm-6 pad-form">
-								<span>Your Budget</span>*
+								<span>Budget</span>*
 								<select id="budget" class="browser-default">
 									<option value="Under 1 Cr.">Under 1 Cr.</option>
 									<option value="1cr. - 2cr">1Cr. - 2 Cr. </option>
@@ -236,8 +236,8 @@
 			return regex.test(phoneNumberString);
 		}
 		var validateForEmail = function(emailString) {
-			var pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/; 
-			return pattern.test(emailString);
+			var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+			return re.test(String(emailString).toLowerCase());
 		}
 
 
