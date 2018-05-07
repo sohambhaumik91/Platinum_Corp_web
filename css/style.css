@@ -50,12 +50,7 @@ body {
 	padding: 0 15px 0 0;
 	cursor:pointer;
 }
-.copyright-link:after {
-	content: '|';
-	/*font-weight: bold;*/
-	position: relative;
-	left: 10px;
-}
+
 .copyright-link:hover {
 	color: #9C2288;
 }
@@ -87,6 +82,7 @@ body {
 }
 .pc-logo {
 	text-align: center;
+	cursor:pointer;
 }
 .pc-header-container {
 	display: table;
@@ -794,6 +790,7 @@ body {
 .tower-header {
 	color: #9C2288;
 	font-size: 24px;
+	font-weight: bold;
 }
 .large-text {
 	font-size: 24px;
@@ -830,4 +827,81 @@ body {
 	font-size: 18px;
 	cursor: pointer;
 	color: #9C2288;
+}
+#platinum-life .buy-home-container {
+	background-color:#00B0DF;
+}
+#platinum-life .brand-color {
+	color: #00B0DF;
+}
+#platinum-life .tower-header {
+	color: #00B0DF;
+}
+#platinum-life .amenities.cctv::before {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 80px;
+	background: url("../images/pl-cctv.png");
+	background-repeat: no-repeat;
+	background-size: 22%;
+	left:-5px;
+}
+#platinum-life .amenities.laundry::before {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 80px;
+	background: url("../images/pl-laundry.png");
+	background-repeat: no-repeat;
+	background-size: 22%;
+	left:-5px;
+}
+
+#platinum-life .amenities.car-park::before {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 80px;
+	background: url("../images/pl-car.png");
+	background-repeat: no-repeat;
+	background-size: 28%;
+	left:-5px;
+}
+
+#platinum-life .amenities.automation::before {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 80px;
+	background: url("../images/pl-automation.png");
+	background-repeat: no-repeat;
+	background-size: 22%;
+	left:-5px;
+}
+#platinum-life .amenities.wifi::before {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 80px;
+	background: url("../images/pl-wifi.png");
+	background-repeat: no-repeat;
+	background-size: 22%;
+	left:-5px;
+}
+#platinum-life .amenities.fitness::before {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 80px;
+	background: url("../images/pl-gym.png");
+	background-repeat: no-repeat;
+	background-size: 22%;
+	left:-5px;
+}
+.platinum-life-image {
+	max-width: 80%;
+}
+.text-right {
+	text-align: right;
 }

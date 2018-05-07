@@ -22,13 +22,24 @@
 				</div>
 			</div>
 			<div id="pc-logo" class="pc-logo col-sm-3">
-				<img style="max-width: 40%;" src="images/pc-logo.png"/>
+				<img style="max-width: 40%;" src="" id="logo-image"/>
 			</div>
 			
 		</div>
 	</div>
 </div>
 <script type="text/javascript">
+	var currentUrl = window.location.href;
+	var logoElem = document.getElementById("logo-image");
+	if(currentUrl.indexOf('platinum-life') > -1) {
+		logoElem.src = "/images/ongoing2.png"
+	}
+	else if (currentUrl.indexOf('platinum-towers') > -1) {
+		logoElem.src = "/images/pt-towers.png"	
+	}
+	else {
+		logoElem.src = "/images/pc-logo.png"		
+	}
 	var redirToHome = document.getElementById("pc-logo");
 	redirToHome.onclick = function() {
 		window.location.href = "/";

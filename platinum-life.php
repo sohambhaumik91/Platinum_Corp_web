@@ -15,7 +15,8 @@
 			<div class="row">
 				<iframe width="100%" height="560" src="https://www.youtube.com/embed/QBeUp-Y7XZA" frameborder="0" allowfullscreen></iframe>
 			</div>
-			<!-- <div class="row top-spacer portfolio-nav-container">
+<!--
+			<div class="row top-spacer portfolio-nav-container">
 				<div class="col-sm-8 col-sm-offset-2">
 					<div class="row">
 						<div class="col-sm-3 portfolio-nav-option text-center active" data-rel="tower1">TOWER 1</div>
@@ -24,7 +25,8 @@
 						<div class="col-sm-3 portfolio-nav-option text-center" data-rel="tower31">TOWER 31</div>
 					</div>
 				</div>
-			</div> -->
+			</div>
+-->
 			<div class="tower-content portfolio-nav-content">
 				<div data-nav="tower1" class="nav-option active top-spacer">
 					<div class="container-fluid">
@@ -35,7 +37,7 @@
 										<p class="tower-header"> Platinum Life</p>
 									</div>
 									<div class="col-sm-12">
-										<p><strong> MahaRERA Reg. No. P51800000654</strong></p>
+										<p><strong> MahaRERA Reg. No. P51800014518</strong></p>
 										<p><strong>Available at:<a href="http://maharera.mahaonline.gov.in"> http://maharera.mahaonline.gov.in</a></strong></p>
 									</div>
 									<div class="col-sm-12">
@@ -63,15 +65,19 @@
 										</div>
 									</div>
 									<div class="col-sm-12 top-spacer"><p>
-										Affordable, serene and well connected. At Platinum Tower 1 we've taken contemporary living to whole new level, providing an environment that's perfectly suited to your family’s lifestyle.<br><br> Tower 1 is an incomparable 16 storeys project. It has semi-furnished flats with multi-level automated basement parkings. <br><br>Tower 1 is located right beside the huge open ground of Bhavan’s College. It is at a 2 minute walking distance to D.N. Nagar Metro Station. If you are looking for the best in Andheri West, affordable lifestyle and amenities, you will find it here.
+										Platinum Life presents an opportunity where your aspiration for an affordable living will come alive with world-class construction and top of the line amenities. A 15-storey residential complex is located in a well-connected neighbourhood. Compring of 4 towers each overlooking grand Central Courtyard.
+                                        <br><br> Here you'll find every comfort, indulgence and convenience, right around you. It’s next to the Shitladevi Temple. The location also has excellent potential for growth as it’s situated opposite Apna Bazaar and a 2 minute walk to D.N. Nagar Metro Station. This is your gateway to complete, extra ordinary living.
 									</p>
 									<br><br>
 									<p>
-										<strong>Possession Date: 19th June, 2018</strong>
+										<strong>Possession Date: December 2024</strong>
 									</p>
 									</div>
 									
 								</div>
+							</div>
+							<div class="col-sm-6 text-right">
+								<img src="images/platinum-life-aerial.png" class=" platinum-life-image"/>
 							</div>
 						</div>
 					</div>
@@ -109,39 +115,17 @@
 						<div class="row apartment-row">
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>1 BHK DELUXE</span>
+									<span>2 BHK SMILE</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>309/336 Sq. Ft</span>
+									<span>665 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;49,00,000</span>
-								</p>
-							</div>
-							<div class="col-sm-3">
-								<p class=" text-center">
-									<span class="danger">SOLD OUT</span>
-								</p>
-							</div>
-						</div>
-						<div class="row apartment-row">
-							<div class="col-sm-3">
-								<p class="text-center">
-									<span>1 BHK GRANDE</span>
-								</p>
-							</div>
-							<div class="col-sm-3">
-								<p class="text-center">
-									<span>366 Sq. Ft</span>
-								</p>
-							</div>
-							<div class="col-sm-3">
-								<p class="text-center">
-									<span>&#x20b9;59,00,000</span>
+									<span>Available Soon</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -153,17 +137,39 @@
 						<div class="row apartment-row">
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>2 BHK DELUXE</span>
+									<span>3 BHK CHEER</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>450 Sq. Ft</span>
+									<span>765 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;65,00,000</span>
+									<span>Available Soon</span>
+								</p>
+							</div>
+							<div class="col-sm-3">
+								<p class=" text-center">
+									<button class="success-btn"> BOOK NOW</button>
+								</p>
+							</div>
+						</div>
+						<div class="row apartment-row">
+							<div class="col-sm-3">
+								<p class="text-center">
+									<span>3 BHK JOY</span>
+								</p>
+							</div>
+							<div class="col-sm-3">
+								<p class="text-center">
+									<span>790 sq. ft</span>
+								</p>
+							</div>
+							<div class="col-sm-3">
+								<p class="text-center">
+									<span>Available Soon</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -175,25 +181,69 @@
 						<div class="row apartment-row">
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>2 BHK GRANDE</span>
+									<span>3 BHK HAPPINESS</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>550 Sq. Ft</span>
+									<span>805 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;75,00,000</span>
+									<span>Available Soon</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class=" text-center">
-									<span class="danger">SOLD OUT</span>
+									<button class="success-btn">BOOK NOW</button>
 								</p>
 							</div>
-						</div>		
+						</div>
+                        <div class="row apartment-row">
+							<div class="col-sm-3">
+								<p class="text-center">
+									<span>3 BHK DELIGHT</span>
+								</p>
+							</div>
+							<div class="col-sm-3">
+								<p class="text-center">
+									<span>900 sq. ft</span>
+								</p>
+							</div>
+							<div class="col-sm-3">
+								<p class="text-center">
+									<span>Available Soon</span>
+								</p>
+							</div>
+							<div class="col-sm-3">
+								<p class=" text-center">
+									<button class="success-btn">BOOK NOW</button>
+								</p>
+							</div>
+						</div>
+                        <div class="row apartment-row">
+							<div class="col-sm-3">
+								<p class="text-center">
+									<span>3 BHK BLISS</span>
+								</p>
+							</div>
+							<div class="col-sm-3">
+								<p class="text-center">
+									<span>950 sq. ft</span>
+								</p>
+							</div>
+							<div class="col-sm-3">
+								<p class="text-center">
+									<span>Available Soon</span>
+								</p>
+							</div>
+							<div class="col-sm-3">
+								<p class=" text-center">
+									<button class="success-btn">BOOK NOW</button>
+								</p>
+							</div>
+						</div>
 					</div>
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-1 top-spacer section-bottom-spacer" style="opacity:0.2; border-bottom: 2px solid #9C2288;">
@@ -207,7 +257,7 @@
 						</div>
 					</div>
 				</div>
-				<!-- <div data-nav="tower4" class="nav-option top-spacer">
+				<div data-nav="tower4" class="nav-option top-spacer">
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-sm-6">
@@ -295,12 +345,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>309/336 Sq. Ft</span>
+									<span>309 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;49,00,000</span>
+									<span>98,88,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -317,12 +367,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>366 Sq. Ft</span>
+									<span>330 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;59,00,000</span>
+									<span>&#x20b9;105,60,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -339,12 +389,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>450 Sq. Ft</span>
+									<span>450 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;65,00,000</span>
+									<span>&#x20b9;144,00,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -361,17 +411,17 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>550 Sq. Ft</span>
+									<span>580 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;75,00,000</span>
+									<span>&#x20b9;185,60,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class=" text-center">
-									<span class="danger">SOLD OUT</span>
+									<button class="success-btn">BOOK NOW</button>
 								</p>
 							</div>
 						</div>		
@@ -477,12 +527,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>309/336 Sq. Ft</span>
+									<span>309 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;49,00,000</span>
+									<span>&#x20b9;98,88,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -499,12 +549,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>366 Sq. Ft</span>
+									<span>330 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;59,00,000</span>
+									<span>&#x20b9;105,60,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -512,7 +562,33 @@
 									<button class="success-btn"> BOOK NOW</button>
 								</p>
 							</div>
+                            
 						</div>
+                        
+                        <div class="row apartment-row">
+							<div class="col-sm-3">
+								<p class="text-center">
+									<span>1 BHK GRANDE +</span>
+								</p>
+							</div>
+							<div class="col-sm-3">
+								<p class="text-center">
+									<span>366 sq. ft</span>
+								</p>
+							</div>
+							<div class="col-sm-3">
+								<p class="text-center">
+									<span>&#x20b9;117,12,000</span>
+								</p>
+							</div>
+							<div class="col-sm-3">
+								<p class=" text-center">
+									<button class="success-btn"> BOOK NOW</button>
+								</p>
+							</div>
+                            
+						</div>
+                        
 						<div class="row apartment-row">
 							<div class="col-sm-3">
 								<p class="text-center">
@@ -521,12 +597,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>450 Sq. Ft</span>
+									<span>450 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;65,00,000</span>
+									<span>&#x20b9;144,00,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -543,17 +619,17 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>550 Sq. Ft</span>
+									<span>585 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;75,00,000</span>
+									<span>&#x20b9;187,20,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class=" text-center">
-									<span class="danger">SOLD OUT</span>
+									<button class="success-btn">BOOK NOW</button>
 								</p>
 							</div>
 						</div>		
@@ -657,12 +733,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>309/336 Sq. Ft</span>
+									<span>309 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;49,00,000</span>
+									<span>&#x20b9;112,78,500</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -679,12 +755,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>366 Sq. Ft</span>
+									<span>330 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;59,00,000</span>
+									<span>&#x20b9;120,45,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -701,12 +777,12 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>450 Sq. Ft</span>
+									<span>450 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;65,00,000</span>
+									<span>&#x20b9;164,25,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
@@ -723,17 +799,17 @@
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>550 Sq. Ft</span>
+									<span>580 sq. ft</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class="text-center">
-									<span>&#x20b9;75,00,000</span>
+									<span>&#x20b9;211,70,000</span>
 								</p>
 							</div>
 							<div class="col-sm-3">
 								<p class=" text-center">
-									<span class="danger">SOLD OUT</span>
+									<button class="success-btn">BOOK NOW</button>
 								</p>
 							</div>
 						</div>		
@@ -749,7 +825,7 @@
 							<p class="text-center brand-color"><strong>& other major Indian banks</strong></p>
 						</div>
 					</div>
-				</div> -->
+				</div>
 			</div>
 		
 		</div>
