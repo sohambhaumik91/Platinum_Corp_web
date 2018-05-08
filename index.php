@@ -11,7 +11,7 @@
 		
 	</head>
 	<body>
-		<div class="hidden-sm">
+		<div>
 			<?php include("header.php") ?>
 		</div>
 		
