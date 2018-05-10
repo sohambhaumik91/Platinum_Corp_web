@@ -1009,3 +1009,133 @@ body {
 .nav-link.active {
 	color: #9C2288;
 }
+/**** home page ****/
+.owl-carousel .slick-slide {
+	height: auto !important;
+}
+
+.hamburger-container {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 65px;
+    left:38px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    z-index: 9999;
+}
+.mobile-menu-container {
+	padding-top: 30px;
+	line-height: 4em;
+	padding-bottom: 30px;
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #9C2288;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+@media only screen
+and (orientation:portrait)
+and (max-device-width: 1024px)
+and (max-device-height: 1024px) {
+    .pc-logo > img {  
+    	width: 35%;
+  	}
+  	.pc-logo {
+  		padding:20px 0 20px 15px !important;
+  	}
+  	.nav-item-container {
+  		text-align:left;
+  		padding: 0 30px 0 30px !important;
+
+  	}
+  	.nav-item {
+  		font-size: 35px;
+  		padding-left: 50px;
+  		padding-top: 20px;
+  		padding-bottom: 20px;
+  		display: inline-block;
+  		width:100%;
+  	}
+	.pc-logo {
+		box-shadow: 0 0 6px rgba(0,0,0, 0.16);
+	}
+	.mobile-menu-container {
+		box-shadow: 0 0 6px rgba(0,0,0, 0.16);	
+	}
+	.nav-item.projects:before {
+		left:0%;
+		background-size: 100% !important;
+		height:46px;
+	}
+	.nav-item.contact:before {
+		left:0%;
+		background-size: 100% !important;
+		height:46px;
+		top:60%;
+	}
+	.nav-item.career:before {
+		left:0%;
+		background-size: 100% !important;
+		height:46px;
+	}
+	.nav-item.blog:before {
+		left:0%;
+		background-size: 100% !important;
+		height:46px;
+		top:58%;
+	}
+	.nav-item-container:not(:last-child) .nav-item {
+		border-bottom: 1px solid #333;
+	}
+	.pc-details-1, .pc-details-2 {
+		font-size: 32px;
+		line-height: 2em;
+	}
+	.pc-section-header {
+		font-size: 58px;
+	}
+	.portfolio-nav-content {
+		font-size: 34px !important;
+	}
+	.gal-container > img {
+		width: 100%;
+	}
+	.pc-amenities li:before {
+		position: absolute;
+	    top: 19px;
+	    left: -1%;
+	    content: '';
+	    display: inline-block;
+	    height: 10px;
+	    width: 10px;
+	    background-color: #9C2288;
+	    border-radius: 50%;
+	}
+	.portfolio-headers {
+		text-align:center;
+		font-size: 58px;
+		display: inline-block;
+		width: 100%;
+	}
+	.portfolio-nav-img {
+		width: 75%;
+	}
+}
+.top-pad {
+	padding-top: 30px;
+}

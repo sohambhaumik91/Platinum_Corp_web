@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0;">
+
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="lib/css/bootstrap.min.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200" rel="stylesheet">
@@ -14,18 +16,18 @@
 		<div>
 			<?php include("header.php") ?>
 		</div>
-		
+		<div></div>
 		<div class="banner-content" >
 			<div class="banner-text"><p class="text-center banner-header">WELCOME TO PLATINUM CORP.</p><p class="text-center banner-subtext">Mumbai's trusted real estate investors, developers and managers. We are building a priceless lifestyle, just for you...</p></div>
 			<div class="owl-carousel owl-theme" style="position: relative;">
 			    <div class="item"><img src="images/hose2.jpg"/></div>
 			    <div class="item"><img src="images/hose2.jpg"/> </div>
-			    <div class="item"><img src="images/house.jpg"/> </div>
+			    <div class="item"><img src="images/hose2.jpg"/> </div>
 			</div>
 		</div>
 
 		<div class="container-fluid pc-padding top-spacer">
-			<div class="row tables">
+			<div class="row tables hidden-xs hidden-sm">
 				<div class="col-sm-6 table-centered">
 					<p class="pc-section-header text-left">About Us</p>
 					<p class="pc-details-1 text-left default-font-size">Platinum Corp. represents a new age real estate development group, focused on delivering Hi-Tech Value Homes for modern day urban India across high-growth regions at affordable prices through flexible payment plans. </p>
@@ -36,7 +38,7 @@
 				</div>
 				<div class="clearfix"></div>
 			</div>
-			<div class="row tables section-bottom-spacer top-spacer">
+			<div class="row tables section-bottom-spacer top-spacer hidden-sm hidden-xs">
 				<div class="col-sm-6 text-center">
 					<img alt="Image desc..." data-src="../images/about-2.png" class="about-img">
 				</div>
@@ -46,17 +48,34 @@
 					<p class="pc-details-2 text-right default-font-size">Our promoters are highly qualified real estate professionals with a strong track record of delivering high quality projects on time. We are mentored and supported by some of the most well-known, large corporate houses and financial institutions of the country, who are continuously encouraging us to explore opportunities for growth.</p>
 				</div>
 				<div class="clearfix"></div>
+				
+			</div>
+			<div class="row hidden-lg">
+				<div class="col-xs-12 col-sm-12 text-center">
+					
+					<p class="pc-section-header top">About Us</p>
+					<div class="col-sm-12 col-xs-12">
+						<img alt="Image desc..." data-src="../images/about-2.png" class="about-img">
+						<p class="pc-details-1 text-center default-font-size">Platinum Corp. represents a new age real estate development group, focused on delivering Hi-Tech Value Homes for modern day urban India across high-growth regions at affordable prices through flexible payment plans. </p>
+						
+						<img alt="Image desc..." data-src="../images/about-1.png" class="about-img">
+						<p class="pc-section-header top-spacer">Our Philosophy</p>
+						<p class="pc-details-2 text-center default-font-size">Our promoters are highly qualified real estate professionals with a strong track record of delivering high quality projects on time. We are mentored and supported by some of the most well-known, large corporate houses and financial institutions of the country, who are continuously encouraging us to explore opportunities for growth.</p>	
+					</div>
+					
+				</div>
 			</div>
 			<div class="row section-bottom-spacer">
 				<div class="col-sm-12 pc-section-header text-center">The priceless dream behind the vision</div>
-				<div class="col-sm-6">
+				<div class="col-md-6 col-xs-12 col-md-push-6 priceless-video">
+					<iframe width="100%" height="50%" src="https://www.youtube.com/embed/QBeUp-Y7XZA" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="col-md-6 col-xs-12 col-md-pull-6">
 					<p class="pc-details-1 text-left default-font-size">Platinum Corp. represents a new age real estate development group, focused on delivering Hi-Tech Value Homes for modern day urban India across high-growth regions at affordable prices through flexible payment plans. </p>
 					<p class="pc-details-2 text-left default-font-size">Our promoters are highly qualified real estate professionals with a strong track record of delivering high quality projects on time. We are mentored and supported by some of the most well-known, large corporate houses and financial institutions of the country, who are continuously encouraging us to explore opportunities for growth.</p>
 					<p class="pc-details-2 text-left default-font-size">Our promoters are highly qualified real estate professionals with a strong track record of delivering high quality projects on time. We are mentored and supported by some of the most well-known, large corporate houses and financial institutions of the country, who are continuously encouraging us to explore opportunities for growth.</p>
 				</div>
-				<div class="col-sm-6">
-					<iframe width="100%" height="50%" src="https://www.youtube.com/embed/QBeUp-Y7XZA" frameborder="0" allowfullscreen></iframe>
-				</div>
+				
 			</div>
 			<div class="row section-bottom-spacer">
 				<div class="col-sm-12 pc-section-header text-center">Value homes & priceless lifestyle</div>
@@ -250,7 +269,7 @@
 		<?php include("footer.php") ?>
 			
 	</body>
-	<script src="lib/js/jquery-3.3.1.min.js"></script>
+	
 	<script type="text/javascript" src="js/homepage.js"></script>
 	<script src="lib/slick/slick.min.js" type="text/javascript"></script>
 	<script src="lib/js/lazyload.min.js"></script>		

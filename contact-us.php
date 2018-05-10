@@ -35,9 +35,15 @@
 				<p class="landing-det">Get in touch with the new age real estate development specialists.<br>We are proud to serve you with a priceless lifestyle that you deserve.</p>
 			</div>
 			<div class="pc-contact-form">
-
+				<div class="buy-home-success">
+					<img src ="images/buy-success.png" class="buy-success"/>
+					<div>
+						<p class='text-center download-pdf life' >Download Brochure for Platinum Life</p>
+						<p class='text-center download-pdf' >Download Brochure for Platinum Towers</p>
+					</div>
+				</div>
 				
-				<div class="container-fluid"  style="padding-right:0px; height:1000px;">
+				<div class="container-fluid buy-form-form"   style="padding-right:0px; height:1000px;">
 					<div class="row zero-margin" >
 						<div class="col-sm-9">
 							<div class="row zero-margin  pad-container">
@@ -240,10 +246,12 @@
 
 						MyIFrameDoc.getElementById("pc-contact-form").submit();
 						iFrameSubmitted = true;		
-						document.getElementById("success-msg").style.opacity = 1;
-						setTimeout(function(){
-							document.getElementById("success-msg").style.opacity = 0;
-						}, 4000);
+						// document.getElementById("success-msg").style.opacity = 1;
+						// setTimeout(function(){
+						// 	document.getElementById("success-msg").style.opacity = 0;
+						// }, 4000);
+						$(".buy-home-success").show();
+						$(".buy-form-form").css({'opacity':0});
 					}
 					else if (!validateForPhone(phone)) {
 						alert("Please Enter a valid phone number");
