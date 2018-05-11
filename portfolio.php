@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0;">
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="lib/css/bootstrap.min.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200" rel="stylesheet">
@@ -29,11 +30,11 @@
 				</div>
 			</div>
 			<div class="row top-spacer portfolio-nav-container">
-				<div class="col-sm-8 col-sm-offset-2">
+				<div class="col-md-8 col-md-offset-2 col-xs-12 col-sm-12">
 					<div class="row">
-						<div class="col-sm-4 portfolio-nav-option text-center active" data-rel="ongoing">ONGOING</div>
-						<div class="col-sm-4 portfolio-nav-option text-center" data-rel="completed">COMPLETED</div>
-						<div class="col-sm-4 portfolio-nav-option text-center" data-rel="upcoming">FUTURE</div>
+						<div class="col-xs-4 portfolio-nav-option text-center active" data-rel="ongoing">ONGOING</div>
+						<div class="col-xs-4 portfolio-nav-option text-center" data-rel="completed">COMPLETED</div>
+						<div class="col-xs-4 portfolio-nav-option text-center" data-rel="upcoming">FUTURE</div>
 					</div>
 				</div>
 			</div>
@@ -43,15 +44,15 @@
 					<div class="col-md-6 col-xs-12 text-center">
 						<div class="row">
 							<div class="col-md-offset-2 col-md-8 col-xs-12">
-								<img class="portfolio-nav-img" data-src="/images/pt-towers.png" class="ongoing-img"/>
+								<img class="portfolio-nav-img" id="platinum-towers" data-src="/images/pt-towers.png" class="ongoing-img"/>
 							</div>
 						</div>
 						
 					</div>
-					<div style="padding:30px;" class="hidden-lg hidden-md"></div>
+					<div style="height:100px;" class="hidden-lg hidden-md"></div>
 					<div class="col-md-6 col-xs-12 text-center">
 						<div class="row">
-							<div class="col-md-offset-2 col-md-8 col-xs-12">
+							<div class="col-md-offset-2 col-md-8 col-xs-12 pt-life-nav">
 								<img class="portfolio-nav-img" id="platinum-life" data-src="/images/ongoing2.png" class="ongoing-img"/>
 							</div>
 						</div>
@@ -156,28 +157,28 @@
 				</div>
 				<div class="row nav-option completed" data-nav="completed">
 					<div class="col-md-5 col-md-12 col-md-push-7 text-center completed-gallery">
-						<div class="col-sm-4 gal-container">
+						<div class="col-xs-4 gal-container">
 							<img src="images/Mask Group 1.png"/>
 						</div>
-						<div class="col-sm-4 gal-container">
+						<div class="col-xs-4 gal-container">
 							<img src="images/Mask Group 2.png"/>
 						</div>
-						<div class="col-sm-4 gal-container">
+						<div class="col-xs-4 gal-container">
 							<img src="images/Mask Group 3.png"/>
 						</div>
-						<div class="col-sm-4 gal-container">
+						<div class="col-xs-4 gal-container">
 							<img src="images/Mask Group 4.png"/>
 						</div>
-						<div class="col-sm-4 gal-container">
+						<div class="col-xs-4 gal-container">
 							<img src="images/Mask Group 5.png"/>
 						</div>
-						<div class="col-sm-4 gal-container">
+						<div class="col-xs-4 gal-container">
 							<img src="images/Mask Group 6.png"/>
 						</div>
 					</div>
 
 					<div class="col-md-1"></div>
-					<div class="col-md-6 col-sm-12 col-md-pull-6">
+					<div class="col-md-6 col-xs-12 col-md-pull-6">
 						<p class="top-pad">Lords is an imposing multi-storied tower in the Bhandup-Nahur belt, a hot bed of residential real estate in Eastern Suburbs of Mumbai. It is located off L.B.S. Road, adjacent to CEAT Tyres, Village Road, Bhandup West. It is a walking distance to Nahur Railway Station.</p>
 						<br>
 						 <p>Lords is developed on a land area of 7,500 sq. mtrs. The complex comprises of 68 units of 1BHK & 200 units of 2BHK residential flats with all modern amenities and fittings. It is located at a short commuting distance to shopping complexes, markets, malls, hospitals, prestigious schools and places of worship.</p>
@@ -196,7 +197,7 @@
 			</div>
 		</div>
 		
-		<?php include("footer.php") ?>	
+		
 	</body>
 	<script src="lib/js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/homepage.js"></script>
@@ -208,7 +209,7 @@
 	</script>
 	<script type="text/javascript">
 		$(function() {
-			$(".ongoing-img").on('click', function() {
+			$("#platinum-towers").on('click', function() {
 				window.location.href = '/platinum-towers.php';
 			})
 		});

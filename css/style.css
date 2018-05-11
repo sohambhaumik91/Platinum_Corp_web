@@ -1018,8 +1018,8 @@ body {
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    top: 65px;
-    left:38px;
+    top: 39px;
+    left:30px;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     z-index: 9999;
@@ -1030,8 +1030,8 @@ body {
 	padding-bottom: 30px;
 }
 .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
+    width: 28px;
+    height: 2px;
     background-color: #9C2288;
     margin: 6px 0;
     transition: 0.4s;
@@ -1110,14 +1110,15 @@ and (max-device-height: 1024px) {
 		font-size: 58px;
 	}
 	.portfolio-nav-content {
-		font-size: 34px !important;
+		font-size: 16px !important;
+		line-height: 2em;
 	}
 	.gal-container > img {
 		width: 100%;
 	}
 	.pc-amenities li:before {
 		position: absolute;
-	    top: 19px;
+	    top: 16px;
 	    left: -1%;
 	    content: '';
 	    display: inline-block;
@@ -1125,6 +1126,10 @@ and (max-device-height: 1024px) {
 	    width: 10px;
 	    background-color: #9C2288;
 	    border-radius: 50%;
+	}
+	.pc-portfolio-intro {
+		line-height:2em;
+		font-size: 16px;
 	}
 	.portfolio-headers {
 		text-align:center;
@@ -1135,7 +1140,57 @@ and (max-device-height: 1024px) {
 	.portfolio-nav-img {
 		width: 75%;
 	}
+	.pt-life-nav {
+		margin-top: 60px;
+	}
+	.pc-portfolio-intro {
+		text-align: center;
+	}
+	.nav-option.completed {
+		padding: 0 15px 0 15px !important;
+	}
+	.portfolio-nav-option {
+		font-size: 14px;
+	}
+	.amenities {
+		font-size: 13px;
+	}
+	span.amenities::before {
+		top: 4px;
+	}
+	span.cctv::before {
+		top: 6px;
+	}
+	.content-hide {
+		display: none;
+	}
+	.accordion-item {
+	    padding: 12px 0 5px 0;
+	    border-top: 1px solid #d3d3d3;
+	    position: relative;
+	    /*border-bottom: 1px solid #d3d3d3;*/
+	}
+	.accordion-item:last-child {
+	    padding: 12px 0 5px 0;
+	    border-bottom: 1px solid #d3d3d3;
+	    /*border-bottom: 1px solid #d3d3d3;*/
+	}
+	i {
+		color: #d3d3d3;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		right: 15px;
+	}
+	
+}
+.portfolio-nav-img {
+	max-width:100%;	
 }
 .top-pad {
 	padding-top: 30px;
+}
+.pt-tower-img {
+	max-width: 100%;
 }

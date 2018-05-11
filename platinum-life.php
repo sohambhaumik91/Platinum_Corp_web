@@ -1,6 +1,7 @@
 <!DOCTYPE>
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0;">
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="lib/css/bootstrap.min.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200" rel="stylesheet">
@@ -31,10 +32,13 @@
 				<div data-nav="tower1" class="nav-option active top-spacer">
 					<div class="container-fluid">
 						<div class="row">
-							<div class="col-sm-6">
+							<div class="col-md-6 col-xs-12 col-md-push-6 text-center">
+								<img src="images/platinum-life-aerial.png" class=" platinum-life-image"/>
+							</div>
+							<div class="col-xs-12 col-md-6 col-md-pull-6">
 								<div class="row">
 									<div class="col-sm-12">
-										<p class="tower-header"> Platinum Life</p>
+										<p class="tower-header" style="padding-top:30px;"> Platinum Life</p>
 									</div>
 									<div class="col-sm-12">
 										<p><strong> MahaRERA Reg. No. P51800014518</strong></p>
@@ -42,24 +46,26 @@
 									</div>
 									<div class="col-sm-12">
 										<div class="row top-spacer">
-											<div class="col-sm-4">
+											<div class="col-md-4 col-xs-6">
 												<span class="amenities wifi">Wi-Fi enabled</span>
 											</div>
-											<div class="col-sm-4">
+											<div class="col-md-4 col-xs-6">
 												<span class="amenities automation">Home Automation</span>
 											</div>
-											<div class="col-sm-4">
+											<div class="clearfix hidden-md hidden-lg"></div>
+											<div class="col-md-4 col-xs-6">
 												<span class="amenities laundry">Launderette</span>
 											</div>
-											<div class='col-sm-12' style="padding:10px;"></div>
-											<div class="clearfix"></div>
-											<div class="col-sm-4">
+											<div class='col-sm-12 hidden-xs hidden-sm' style="padding:10px;"></div>
+											<div class="clearfix hidden-sm hidden-xs"></div>
+											<div class="col-md-4 col-xs-6">
 												<span class="amenities fitness">Fitness Center</span>
 											</div>
-											<div class="col-sm-4">
+											<div class="clearfix hidden-md hidden-lg"></div>
+											<div class="col-md-4 col-xs-6">
 												<span class="amenities cctv">CCTV Surveillance</span>
 											</div>
-											<div class="col-sm-4">
+											<div class="col-md-4 col-xs-6">
 												<span class="amenities car-park">Automated Car Parking</span>
 											</div>
 										</div>
@@ -76,9 +82,7 @@
 									
 								</div>
 							</div>
-							<div class="col-sm-6 text-right">
-								<img src="images/platinum-life-aerial.png" class=" platinum-life-image"/>
-							</div>
+							
 						</div>
 					</div>
 					<div class="pc-all-properties">
@@ -90,7 +94,7 @@
 								</div>
 							</div>
 						</div>	
-						<div class="row top-spacer">
+						<div class="row top-spacer hidden-xs hidden-md">
 							<div class="col-sm-3">
 								<p class="brand-color text-center">
 									<strong>FLAT TYPE</strong>
@@ -112,7 +116,7 @@
 								</p>
 							</div>
 						</div>	
-						<div class="row apartment-row">
+						<div class="row apartment-row hidden-xs hidden-md">
 							<div class="col-sm-3">
 								<p class="text-center">
 									<span>2 BHK SMILE</span>
@@ -134,7 +138,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="row apartment-row">
+						<div class="row apartment-row hidden-xs hidden-md">
 							<div class="col-sm-3">
 								<p class="text-center">
 									<span>3 BHK CHEER</span>
@@ -156,7 +160,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="row apartment-row">
+						<div class="row apartment-row hidden-xs hidden-md">
 							<div class="col-sm-3">
 								<p class="text-center">
 									<span>3 BHK JOY</span>
@@ -178,7 +182,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="row apartment-row">
+						<div class="row apartment-row hidden-xs hidden-md">
 							<div class="col-sm-3">
 								<p class="text-center">
 									<span>3 BHK HAPPINESS</span>
@@ -200,7 +204,7 @@
 								</p>
 							</div>
 						</div>
-                        <div class="row apartment-row">
+                        <div class="row apartment-row hidden-xs hidden-md">
 							<div class="col-sm-3">
 								<p class="text-center">
 									<span>3 BHK DELIGHT</span>
@@ -222,7 +226,7 @@
 								</p>
 							</div>
 						</div>
-                        <div class="row apartment-row">
+                        <div class="row apartment-row hidden-xs hidden-md">
 							<div class="col-sm-3">
 								<p class="text-center">
 									<span>3 BHK BLISS</span>
@@ -244,6 +248,174 @@
 								</p>
 							</div>
 						</div>
+						<div class="row hidden-md hidden-lg">
+							<div class="col-xs-12">
+								<p class="brand-color text-center" style="padding-top:15px;">
+									<strong>FLAT TYPE</strong>
+								</p>
+							</div>
+							<div class="col-xs-12">
+								<div class="row">
+									<div class="col-xs-12 accordion-item">
+										<p class="text-center accordion-trigger"> 2BHK SMILE </p>
+										<i class="fa fa-angle-down"></i>
+
+
+										<div class="content-hide row pin-content">
+											<div class="col-xs-4">
+												<p class="brand-color text-center">
+													<strong>CARPET AREA</strong>
+												</p>
+												<p class="text-center">
+													<span>665 sq. ft</span>
+												</p>
+
+											</div>
+											<div class="col-xs-4">
+												<p class="brand-color text-center">
+													<strong>BASE PRICE</strong>
+												</p>
+												<p class="text-center">
+													<span>Available Soon</span>
+												</p>
+											</div>
+											<div class="col-xs-4">
+												<p class="brand-color text-center">
+													<strong>BOOKINGS</strong>
+												</p>
+												<p class=" text-center">
+													<button class="success-btn">BOOK NOW</button>
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 accordion-item">
+										<p class="text-center accordion-trigger"> 2BHK CHEER </p>
+										<i class="fa fa-angle-down"></i>
+										<div class="content-hide row pin-content">
+											<div class="col-xs-4">
+												<p class="brand-color text-center">
+													<strong>CARPET AREA</strong>
+												</p>
+												<p class="text-center">
+													<span>765 sq. ft</span>
+												</p>
+
+											</div>
+											<div class="col-xs-4">
+												<p class="brand-color text-center">
+													<strong>BASE PRICE</strong>
+												</p>
+												<p class="text-center">
+													<span>Available Soon</span>
+												</p>
+											</div>
+											<div class="col-xs-4">
+												<p class="brand-color text-center">
+													<strong>BOOKINGS</strong>
+												</p>
+												<p class=" text-center">
+													<button class="success-btn"> BOOK NOW</button>
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 accordion-item">
+										<p class="text-center accordion-trigger">3BHK JOY </p>
+										<i class="fa fa-angle-down"></i>
+										<div class="content-hide row pin-content">
+											<div class="col-xs-4">
+												<p class="brand-color text-center">
+													<strong>CARPET AREA</strong>
+												</p>
+												<p class="text-center">
+													<span>790 sq. ft</span>
+												</p>
+
+											</div>
+											<div class="col-xs-4">
+												<p class="brand-color text-center">
+													<strong>BASE PRICE</strong>
+												</p>
+												<p class="text-center">
+													<span>Available Soon</span>
+												</p>
+											</div>
+											<div class="col-xs-4">
+												<p class="brand-color text-center">
+													<strong>BOOKINGS</strong>
+												</p>
+												<p class=" text-center">
+													<button class="success-btn"> BOOK NOW</button>
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 accordion-item">
+										<p class="text-center accordion-trigger"> 3 BHK DELIGHT </p>
+										<i class="fa fa-angle-down"></i>
+										<div class="content-hide row pin-content">
+											<div class="col-xs-4">
+												<p class="brand-color text-center">
+													<strong>CARPET AREA</strong>
+												</p>
+												<p class="text-center">
+													<span>900 sq. ft</span>
+												</p>
+
+											</div>
+											<div class="col-xs-4">
+												<p class="brand-color text-center">
+													<strong>BASE PRICE</strong>
+												</p>
+												<p class="text-center">
+													<span>Available Soon</span>
+												</p>
+											</div>
+											<div class="col-xs-4">
+												<p class="brand-color text-center">
+													<strong>BOOKINGS</strong>
+												</p>
+												<p class=" text-center">
+													<button class="success-btn"> BOOK NOW</button>
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 accordion-item">
+										<p class="text-center accordion-trigger"> 3 BHK BLISS </p>
+										<i class="fa fa-angle-down"></i>
+										<div class="content-hide row pin-content">
+											<div class="col-xs-4">
+												<p class="brand-color text-center">
+													<strong>CARPET AREA</strong>
+												</p>
+												<p class="text-center">
+													<span>950 sq. ft</span>
+												</p>
+
+											</div>
+											<div class="col-xs-4">
+												<p class="brand-color text-center">
+													<strong>BASE PRICE</strong>
+												</p>
+												<p class="text-center">
+													<span>Available Soon</span>
+												</p>
+											</div>
+											<div class="col-xs-4">
+												<p class="brand-color text-center">
+													<strong>BOOKINGS</strong>
+												</p>
+												<p class=" text-center">
+													<button class="success-btn"> BOOK NOW</button>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>		
 					</div>
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-1 top-spacer section-bottom-spacer" style="opacity:0.2; border-bottom: 2px solid #9C2288;">
@@ -829,7 +1001,7 @@
 			</div>
 		
 		</div>
-		<?php include("footer.php") ?>
+		
 		<script src="lib/js/jquery-3.3.1.min.js"></script>
 		<script type="text/javascript" src="js/projects.js"></script>
 		<script src="lib/slick/slick.min.js" type="text/javascript"></script>
@@ -840,7 +1012,23 @@
 			$(function() {
 				$(".success-btn").on('click', function() {
 					window.location.href = '/buy-a-home.php';
-				})
+				});
+
+				$(".accordion-trigger").on('click', function(e) {
+
+					
+					var $accordionContent = $(this).siblings('.pin-content');
+					$accordionContent.toggleClass('content-hide');
+					
+					if(!$accordionContent.hasClass('content-hide')) {
+						$accordionContent.slideDown(50);
+						$(this).siblings('i').fadeOut(50);
+					}
+					else {
+						$accordionContent.slideUp(50);	
+						$(this).siblings('i').fadeIn(50);
+					}
+				});
 			})
 		</script>
 	</body>
