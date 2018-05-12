@@ -34,7 +34,8 @@
 			<span class=" text-center copyright-link"> Disclaimer </span>
 			<span class=" text-center copyright-link"> Sitemap </span>	 -->
 		</div>
-		<div class="col-md-2 col-xs-6 ">
+		<div class="col-md-2 hidden-xs hidden-sm"></div>
+		<div class="col-md-2 col-xs-6">
 			<div class="col-md-2 col-xs-2 text-center">
 				<img src="images/footer-youtube.png" class="footer-social-media-img"/>
 			</div>
