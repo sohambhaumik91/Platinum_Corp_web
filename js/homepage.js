@@ -26,5 +26,6 @@ $(function() {
     }	
     $("#testimonial-slider").slick(testimonialSliderOptions);
     $("#awards-slider").slick(testimonialSliderOptions);
-	
+    $("#amenities-slider").slick(testimonialSliderOptions);
+	$("#mobile-awards-slider").slick(testimonialSliderOptions);
 })

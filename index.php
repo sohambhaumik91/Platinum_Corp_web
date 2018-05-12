@@ -70,7 +70,7 @@
 				<div class="col-md-6 col-xs-12 col-md-push-6 priceless-video">
 					<iframe width="100%" height="50%" src="https://www.youtube.com/embed/QBeUp-Y7XZA" frameborder="0" allowfullscreen></iframe>
 				</div>
-				<div class="col-md-6 col-xs-12 col-md-pull-6">
+				<div class="col-md-6 col-xs-12 col-md-pull-6 vision-text">
 					<p class="pc-details-1 text-left default-font-size">Platinum Corp. represents a new age real estate development group, focused on delivering Hi-Tech Value Homes for modern day urban India across high-growth regions at affordable prices through flexible payment plans. </p>
 					<p class="pc-details-2 text-left default-font-size">Our promoters are highly qualified real estate professionals with a strong track record of delivering high quality projects on time. We are mentored and supported by some of the most well-known, large corporate houses and financial institutions of the country, who are continuously encouraging us to explore opportunities for growth.</p>
 					<p class="pc-details-2 text-left default-font-size">Our promoters are highly qualified real estate professionals with a strong track record of delivering high quality projects on time. We are mentored and supported by some of the most well-known, large corporate houses and financial institutions of the country, who are continuously encouraging us to explore opportunities for growth.</p>
@@ -79,7 +79,7 @@
 			</div>
 			<div class="row section-bottom-spacer">
 				<div class="col-sm-12 pc-section-header text-center">Value homes & priceless lifestyle</div>
-				<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2 amenities-text">
 					<p class="text-center default-font-size">We invite you to experience our Hi-Tech Value Homes that have been designed keeping in mind all your comforts and conveniences for modern day living to enrich your lifestyle.</p><br><br>
 					<p class="text-center default-font-size">A "Value Home" is a masterpiece of spatial innovation; meticulously planned and ergonomically designed, to provide you with optimum funcrionality and space utilization, so that you only pay for what you use.</p>
 					<p class="text-center top-spacer">
@@ -94,7 +94,7 @@
 				</div>
 				
 			</div>
-			<div class="row tables section-bottom-spacer">
+			<div class="row tables section-bottom-spacer hidden-xs hidden-sm">
 				<div class="col-sm-1"></div>
 				<div class="col-sm-2 text-center">
 					<img class="award-img home-page-icons" style="vertical-align: bottom;" src="images/location.png"/>
@@ -118,10 +118,79 @@
 				</div>
 
 			</div>
+			<div class="row section-bottom-spacer hidden-md hidden-lg hidden-xl" id="amenities-slider">
+				<div class="text-center">
+					<img class="mobile-amenities" style="vertical-align: bottom;" src="images/location.png"/>
+					<p class="Facilities-text">Prime Location</p>
+				</div>	
+				<div class="text-center">
+					<img class="mobile-amenities" style="vertical-align: bottom;" src="images/spatial.png"/>
+					<p class="Facilities-text">Spatial Innovation</p>
+				</div>	
+				<div class="text-center">
+					<img class="mobile-amenities" style="vertical-align: bottom;" src="images/quality.png"/>
+					<p class="Facilities-text">Quality Construction</p>
+				</div>	
+				<div class="text-center">
+					<img class="mobile-amenities" style="vertical-align: bottom;" src="images/tech.png"/>
+					<p class="Facilities-text">	Hi-Tech Facilities</p>
+				</div>	
+				<div class="text-center">
+					<img class="mobile-amenities" style="vertical-align: bottom;" src="images/payment.png"/>
+					<p class="Facilities-text">Easy Payment Plans</p>
+				</div>	
+			</div>
 			<div class="row top-spacer">
 				<div class="col-sm-12 text-center pc-section-header">Our efforts don't go unnoticed</div>
 			</div>
-			<div id="awards-slider">
+			<div id="mobile-awards-slider" class="row section-bottom-spacer hidden-md hidden-lg hidden-xl">
+				<div class="text-center">
+					<img src="images/a1.png" class="mobile-amenities awards"/>
+				</div>
+				<div class="text-center">
+					<img src="images/a2.png" class="mobile-amenities awards"/>
+				</div>
+				<div class="text-center">
+					<img src="images/a3.png" class="mobile-amenities awards"/>
+				</div>
+				<div class="text-center">
+					<img src="images/a4.png" class="mobile-amenities awards"/>
+				</div>
+				<div class="text-center">
+					<img src="images/a5.png" class="mobile-amenities awards"/>
+				</div>
+				<div class="text-center">
+					<img src="images/a6.png" class="mobile-amenities awards"/>
+				</div>
+				<div class="text-center">
+					<img src="images/a7.png" class="mobile-amenities awards"/>
+				</div>
+				<div class="text-center">
+					<img src="images/a8.png" class="mobile-amenities awards"/>
+				</div>
+				<div class="text-center">
+					<img src="images/a9.png" class="mobile-amenities awards"/>
+				</div>
+				<div class="text-center">
+					<img src="images/a10.png" class="mobile-amenities awards"/>
+				</div>
+				<div class="text-center">
+					<img src="images/a11.png" class="mobile-amenities awards"/>
+				</div>
+				<div class="text-center">
+					<img src="images/a12.png" class="mobile-amenities awards"/>
+				</div>
+				<div class="text-center">
+					<img src="images/a13.png" class="mobile-amenities awards"/>
+				</div>
+				<div class="text-center">
+					<img src="images/a14.png" class="mobile-amenities awards"/>
+				</div>
+				<div class="text-center">
+					<img src="images/a15.png" class="mobile-amenities awards"/>
+				</div>
+			</div>
+			<div id="awards-slider" class="hidden-sm hidden-xs">
 				<div class="row tables section-bottom-spacer">
 					<div class="col-sm-3 text-center table-centered">
 						<img src="images/trophy.png" class="award-img"/>
@@ -238,7 +307,7 @@
 				<div class="col-sm-12 text-center pc-section-header">Get in touch with Platinum Corp.</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-6">
+				<div class="col-md-6 col-xs-12">
 					<div class="pc-map-container">
 						<p class="contact-header">
 							<strong>Platnium Corp. Corporate Office</strong>
@@ -251,7 +320,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-6">
+				<div class="col-md-6 col-xs-12">
 					<div class="pc-map-container">
 						<p class="contact-header">
 							<strong>Platnium Corp. Sales Office</strong>
@@ -266,7 +335,6 @@
 			</div>
 			
 		</div>
-		<?php include("footer.php") ?>
 			
 	</body>
 	

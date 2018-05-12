@@ -1025,13 +1025,13 @@ body {
     z-index: 9999;
 }
 .mobile-menu-container {
-	padding-top: 30px;
-	line-height: 4em;
-	padding-bottom: 30px;
+	padding-top: 10px;
+    line-height: 4em;
+    padding-bottom: 10px;
 }
 .bar1, .bar2, .bar3 {
-    width: 28px;
-    height: 2px;
+    width: 35px;
+    height: 5px;
     background-color: #9C2288;
     margin: 6px 0;
     transition: 0.4s;
@@ -1064,14 +1064,14 @@ and (max-device-height: 1024px) {
 
   	}
   	.nav-item {
-  		font-size: 35px;
+  		font-size: 16px;
   		padding-left: 50px;
-  		padding-top: 20px;
-  		padding-bottom: 20px;
+  		padding-top: 10px;
+  		padding-bottom: 10px;
   		display: inline-block;
   		width:100%;
   	}
-	.pc-logo {
+	.pc-header {
 		box-shadow: 0 0 6px rgba(0,0,0, 0.16);
 	}
 	.mobile-menu-container {
@@ -1103,11 +1103,11 @@ and (max-device-height: 1024px) {
 		border-bottom: 1px solid #333;
 	}
 	.pc-details-1, .pc-details-2 {
-		font-size: 32px;
+		font-size: 18px;
 		line-height: 2em;
 	}
 	.pc-section-header {
-		font-size: 58px;
+		font-size: 42px;
 	}
 	.portfolio-nav-content {
 		font-size: 16px !important;
@@ -1183,7 +1183,60 @@ and (max-device-height: 1024px) {
 		-webkit-transform: translateY(-50%);
 		right: 15px;
 	}
-	
+	.vision-text p {
+		text-align: center;
+	}
+	.amenities-text p {
+		font-size: 18px;
+		line-height: 2em;
+	}
+	.mobile-amenities {
+		margin: 0 auto;
+		max-width: 45%;
+	}
+	.mobile-amenities.awards {
+		margin: 0 auto;
+		max-width: 80%;
+	}
+	.mobile-amenities + p {
+		margin-top: 15px;
+		font-size: 16px;
+	}
+	#amenities-slider .slick-slide {
+		height: auto !important;
+	}
+	#mobile-awards-slider .slick-slide {
+		height: auto !important;
+	}
+	.review-text {
+		font-size: 16px;
+		line-height: 2em;
+	}
+	.review-text:before {
+	    content: '\f10d';
+	    font-family: FontAwesome;
+	    font-size: 30px;
+	    color: #942081;
+	    position: absolute;
+	    left: -20%;
+	    bottom: 24%;
+	    opacity: 0.5;
+	    top: 0px;
+	}
+	.review-text:after {
+	    content: '\f10e';
+	    font-family: FontAwesome;
+	    font-size: 30px;
+	    color: #942081;
+	    position: absolute;
+	    bottom: 0%;
+	    opacity: 0.5;
+	    right: -65px;
+	}
+	.pc-map-container {
+		margin: 0 auto;
+		width: 100%;
+	}	
 }
 .portfolio-nav-img {
 	max-width:100%;	
