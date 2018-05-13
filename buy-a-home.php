@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0;">
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="lib/css/bootstrap.min.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200" rel="stylesheet">
@@ -120,7 +121,7 @@
 		</div>
 		
 		
-			
+					
 	</body>
 	<script src="lib/js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/homepage.js"></script>
@@ -215,6 +216,7 @@
 						iFrameSubmitted = true;
 						$(".buy-home-success").show();
 						$(".buy-form-form").css({'opacity':0});
+						$("html, body").animate({ scrollTop: 0 }, "slow");
 					}
 					else {
 						if(!validateForPhone(phone)) {

@@ -3,6 +3,7 @@
 <html>
 	<head>
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0;">
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="lib/css/bootstrap.min.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200" rel="stylesheet">
@@ -45,7 +46,7 @@
 				
 				<div class="container-fluid buy-form-form"   style="padding-right:0px; height:1000px;">
 					<div class="row zero-margin" >
-						<div class="col-sm-9">
+						<div class="col-md-9 col-xs-12 padder">
 							<div class="row zero-margin  pad-container">
 								<div class="col-sm-12">
 									<p class="pc-contact-form-header"> Send us a message </p>
@@ -101,9 +102,9 @@
 							</div>
 
 						</div>
-						<div class="col-sm-3"  style="padding-right:15px; height:100%;">
+						<div class="col-md-3 col-xs-12 padder"  style="height:100%;">
 							<div class="pc-contact-form-details">
-								<img src="images/form-filler.png" class="form-filler"/>
+								<img src="images/form-filler.png" class="form-filler hidden-xs hidden-sm"/>
 								<div class="container-fluid">
 									<div class="row zero-margin  pad-container">
 										<div class="col-sm-12">
@@ -165,7 +166,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="row pc-social-media zero-margin">
+									<div class="row pc-social-media zero-margin hidden-xs hidden-sm">
 										<div class="col-sm-3 text-center">
 											<img src="images/youtube.png" class="social-media-img"/>
 										</div>
@@ -189,7 +190,7 @@
 			</div>
 		</div>
 		<div class="spacer"></div>
-		<?php include("footer.php") ?>
+
 	
 	</body>
 	<script src="lib/js/jquery-3.3.1.min.js"></script>
@@ -251,7 +252,10 @@
 						// 	document.getElementById("success-msg").style.opacity = 0;
 						// }, 4000);
 						$(".buy-home-success").show();
+						
 						$(".buy-form-form").css({'opacity':0});
+						$("html, body").animate({ scrollTop: 0 }, "slow");
+
 					}
 					else if (!validateForPhone(phone)) {
 						alert("Please Enter a valid phone number");
