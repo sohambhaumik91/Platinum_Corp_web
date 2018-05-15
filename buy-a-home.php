@@ -9,6 +9,9 @@
 		<link href="lib/slick/slick.css" rel="stylesheet">
 		<link href="lib/slick/slick-theme.css" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        
+        <link rel="icon" href="Favicon.ico/favicon-16x16.png" type="image/x-icon" />
+        
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 		<script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" async defer></script>
 		<script type='text/javascript'>
@@ -49,6 +52,7 @@
 					<img src ="images/buy-success.png" class="buy-success"/>
 					<div>
 						<p class='text-center download-pdf life' >Download Brochure for Platinum Life</p>
+                        <br/>
 						<p class='text-center download-pdf' >Download Brochure for Platinum Towers</p>
 					</div>
 				</div>

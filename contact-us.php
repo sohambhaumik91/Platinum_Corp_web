@@ -10,6 +10,9 @@
 		<link href="lib/slick/slick.css" rel="stylesheet">
 		<link href="lib/slick/slick-theme.css" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        
+        <link rel="icon" href="Favicon.ico/favicon-16x16.png" type="image/x-icon" />
+        
 	    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"> -->
 	    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
 	    <script type="text/javascript">
@@ -109,7 +112,7 @@
 									<div class="row zero-margin  pad-container">
 										<div class="col-sm-12">
 											<p class="contact-right-form-header">
-												<span class="active nav-link" data-rel="corporate">CORPORATE &nbsp &nbsp /</span>
+												<span class="active nav-link" data-rel="corporate">CORPORATE &nbsp &nbsp |</span>
 												<span class="nav-link" data-rel="sales">&nbsp &nbspSALES</span>
 											</p>
 										</div>
@@ -154,7 +157,7 @@
 												<p class="contact-right-form-header">
 													<strong>Telephone</strong>
 												</p>
-												<p>+91 (22) 2621 6000</p>
+												<p>+91 (22) 2621 6600</p>
 											</div>
 										</div>
 										<div class="row zero-margin pc-padder last-detail">
@@ -162,7 +165,7 @@
 												<p class="contact-right-form-header">
 													<strong>Email Address</strong>
 												</p>
-												<p>info@platinumcorp.in</p>
+												<p>sales@platinumcorp.in</p>
 											</div>
 										</div>
 									</div>

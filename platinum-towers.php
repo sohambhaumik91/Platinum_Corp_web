@@ -10,13 +10,14 @@
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 
-
+         <link rel="icon" href="Favicon.ico/favicon-16x16.png" type="image/x-icon" />
 	</head>
 	<body id="platinum-towers">
 		<?php include("header.php") ?>
 		<div class="pc-header-spacer"></div>
 		<div class="container-fluid">
 			<div class="row">
+                <br />
 				<iframe width="100%" height="560" src="https://www.youtube.com/embed/QBeUp-Y7XZA" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="row top-spacer portfolio-nav-container">

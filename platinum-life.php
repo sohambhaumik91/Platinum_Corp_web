@@ -8,13 +8,16 @@
 		<link href="lib/slick/slick.css" rel="stylesheet">
 		<link href="lib/slick/slick-theme.css" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        
+        <link rel="icon" href="Favicon.ico/favicon-16x16.png" type="image/x-icon" />
 	</head>
 	<body id="platinum-life">
 		<?php include("header.php") ?>
 		<div class="pc-header-spacer"></div>
 		<div class="container-fluid">
 			<div class="row">
-				<iframe width="100%" height="560" src="https://www.youtube.com/embed/QBeUp-Y7XZA" frameborder="0" allowfullscreen></iframe>
+                <br />
+				<iframe width="100%" height="560" src="https://www.youtube.com/embed/VFCqoRL3Rmk" frameborder="0" allowfullscreen></iframe>
 			</div>
 <!--
 			<div class="row top-spacer portfolio-nav-container">
@@ -32,13 +35,10 @@
 				<div data-nav="tower1" class="nav-option active top-spacer">
 					<div class="container-fluid">
 						<div class="row">
-							<div class="col-md-6 col-xs-12 col-md-push-6 text-center">
-								<img src="images/platinum-life-aerial.png" class=" platinum-life-image"/>
-							</div>
-							<div class="col-xs-12 col-md-6 col-md-pull-6">
+							<div class="col-sm-6">
 								<div class="row">
 									<div class="col-sm-12">
-										<p class="tower-header" style="padding-top:30px;"> Platinum Life</p>
+										<p class="tower-header"> Platinum Life</p>
 									</div>
 									<div class="col-sm-12">
 										<p><strong> MahaRERA Reg. No. P51800014518</strong></p>
@@ -46,33 +46,31 @@
 									</div>
 									<div class="col-sm-12">
 										<div class="row top-spacer">
-											<div class="col-md-4 col-xs-6">
+											<div class="col-sm-4">
 												<span class="amenities wifi">Wi-Fi enabled</span>
 											</div>
-											<div class="col-md-4 col-xs-6">
+											<div class="col-sm-4">
 												<span class="amenities automation">Home Automation</span>
 											</div>
-											<div class="clearfix hidden-md hidden-lg"></div>
-											<div class="col-md-4 col-xs-6">
+											<div class="col-sm-4">
 												<span class="amenities laundry">Launderette</span>
 											</div>
-											<div class='col-sm-12 hidden-xs hidden-sm' style="padding:10px;"></div>
-											<div class="clearfix hidden-sm hidden-xs"></div>
-											<div class="col-md-4 col-xs-6">
+											<div class='col-sm-12' style="padding:10px;"></div>
+											<div class="clearfix"></div>
+											<div class="col-sm-4">
 												<span class="amenities fitness">Fitness Center</span>
 											</div>
-											<div class="clearfix hidden-md hidden-lg"></div>
-											<div class="col-md-4 col-xs-6">
+											<div class="col-sm-4">
 												<span class="amenities cctv">CCTV Surveillance</span>
 											</div>
-											<div class="col-md-4 col-xs-6">
+											<div class="col-sm-4">
 												<span class="amenities car-park">Automated Car Parking</span>
 											</div>
 										</div>
 									</div>
 									<div class="col-sm-12 top-spacer"><p>
-										Platinum Life presents an opportunity where your aspiration for an affordable living will come alive with world-class construction and top of the line amenities. A 15-storey residential complex is located in a well-connected neighbourhood. Compring of 4 towers each overlooking grand Central Courtyard.
-                                        <br><br> Here you'll find every comfort, indulgence and convenience, right around you. It’s next to the Shitladevi Temple. The location also has excellent potential for growth as it’s situated opposite Apna Bazaar and a 2 minute walk to D.N. Nagar Metro Station. This is your gateway to complete, extra ordinary living.
+										Platinum Life presents an opportunity where your aspirations for an affordable living will come alive with world-class construction and top of the line amenities. In the heart of Upper Juhu, Mumbai, a 15-storey residential complex is located in the well-connected neighbourhood. Comprising of 4 towers each overlooking grand Central Courtyard.
+                                        <br><br> Here you'll find every comfort, indulgence and convenience, right around you. It’s next to the Shitladevi Temple. The location also has excellent potential for growth as it’s situated opposite Apna Bazaar and a 2 minute walk to D.N. Nagar Metro Station. These 2 & 3 Bed Residences are your gateway to complete, extra ordinary living.
 									</p>
 									<br><br>
 									<p>
@@ -82,7 +80,9 @@
 									
 								</div>
 							</div>
-							
+							<div class="col-sm-6 text-right">
+								<img src="images/platinum-life-aerial.png" class=" platinum-life-image"/>
+							</div>
 						</div>
 					</div>
 					<div class="pc-all-properties">
@@ -94,7 +94,7 @@
 								</div>
 							</div>
 						</div>	
-						<div class="row top-spacer hidden-xs hidden-md">
+						<div class="row top-spacer">
 							<div class="col-sm-3">
 								<p class="brand-color text-center">
 									<strong>FLAT TYPE</strong>
@@ -116,7 +116,7 @@
 								</p>
 							</div>
 						</div>	
-						<div class="row apartment-row hidden-xs hidden-md">
+						<div class="row apartment-row">
 							<div class="col-sm-3">
 								<p class="text-center">
 									<span>2 BHK SMILE</span>
@@ -138,7 +138,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="row apartment-row hidden-xs hidden-md">
+						<div class="row apartment-row">
 							<div class="col-sm-3">
 								<p class="text-center">
 									<span>3 BHK CHEER</span>
@@ -160,7 +160,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="row apartment-row hidden-xs hidden-md">
+						<div class="row apartment-row">
 							<div class="col-sm-3">
 								<p class="text-center">
 									<span>3 BHK JOY</span>
@@ -182,7 +182,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="row apartment-row hidden-xs hidden-md">
+						<div class="row apartment-row">
 							<div class="col-sm-3">
 								<p class="text-center">
 									<span>3 BHK HAPPINESS</span>
@@ -204,7 +204,7 @@
 								</p>
 							</div>
 						</div>
-                        <div class="row apartment-row hidden-xs hidden-md">
+                        <div class="row apartment-row">
 							<div class="col-sm-3">
 								<p class="text-center">
 									<span>3 BHK DELIGHT</span>
@@ -226,7 +226,7 @@
 								</p>
 							</div>
 						</div>
-                        <div class="row apartment-row hidden-xs hidden-md">
+                        <div class="row apartment-row">
 							<div class="col-sm-3">
 								<p class="text-center">
 									<span>3 BHK BLISS</span>
@@ -248,174 +248,6 @@
 								</p>
 							</div>
 						</div>
-						<div class="row hidden-md hidden-lg">
-							<div class="col-xs-12">
-								<p class="brand-color text-center" style="padding-top:15px;">
-									<strong>FLAT TYPE</strong>
-								</p>
-							</div>
-							<div class="col-xs-12">
-								<div class="row">
-									<div class="col-xs-12 accordion-item">
-										<p class="text-center accordion-trigger"> 2BHK SMILE </p>
-										<i class="fa fa-angle-down"></i>
-
-
-										<div class="content-hide row pin-content">
-											<div class="col-xs-4">
-												<p class="brand-color text-center">
-													<strong>CARPET AREA</strong>
-												</p>
-												<p class="text-center">
-													<span>665 sq. ft</span>
-												</p>
-
-											</div>
-											<div class="col-xs-4">
-												<p class="brand-color text-center">
-													<strong>BASE PRICE</strong>
-												</p>
-												<p class="text-center">
-													<span>Available Soon</span>
-												</p>
-											</div>
-											<div class="col-xs-4">
-												<p class="brand-color text-center">
-													<strong>BOOKINGS</strong>
-												</p>
-												<p class=" text-center">
-													<button class="success-btn">BOOK NOW</button>
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="col-xs-12 accordion-item">
-										<p class="text-center accordion-trigger"> 2BHK CHEER </p>
-										<i class="fa fa-angle-down"></i>
-										<div class="content-hide row pin-content">
-											<div class="col-xs-4">
-												<p class="brand-color text-center">
-													<strong>CARPET AREA</strong>
-												</p>
-												<p class="text-center">
-													<span>765 sq. ft</span>
-												</p>
-
-											</div>
-											<div class="col-xs-4">
-												<p class="brand-color text-center">
-													<strong>BASE PRICE</strong>
-												</p>
-												<p class="text-center">
-													<span>Available Soon</span>
-												</p>
-											</div>
-											<div class="col-xs-4">
-												<p class="brand-color text-center">
-													<strong>BOOKINGS</strong>
-												</p>
-												<p class=" text-center">
-													<button class="success-btn"> BOOK NOW</button>
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="col-xs-12 accordion-item">
-										<p class="text-center accordion-trigger">3BHK JOY </p>
-										<i class="fa fa-angle-down"></i>
-										<div class="content-hide row pin-content">
-											<div class="col-xs-4">
-												<p class="brand-color text-center">
-													<strong>CARPET AREA</strong>
-												</p>
-												<p class="text-center">
-													<span>790 sq. ft</span>
-												</p>
-
-											</div>
-											<div class="col-xs-4">
-												<p class="brand-color text-center">
-													<strong>BASE PRICE</strong>
-												</p>
-												<p class="text-center">
-													<span>Available Soon</span>
-												</p>
-											</div>
-											<div class="col-xs-4">
-												<p class="brand-color text-center">
-													<strong>BOOKINGS</strong>
-												</p>
-												<p class=" text-center">
-													<button class="success-btn"> BOOK NOW</button>
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="col-xs-12 accordion-item">
-										<p class="text-center accordion-trigger"> 3 BHK DELIGHT </p>
-										<i class="fa fa-angle-down"></i>
-										<div class="content-hide row pin-content">
-											<div class="col-xs-4">
-												<p class="brand-color text-center">
-													<strong>CARPET AREA</strong>
-												</p>
-												<p class="text-center">
-													<span>900 sq. ft</span>
-												</p>
-
-											</div>
-											<div class="col-xs-4">
-												<p class="brand-color text-center">
-													<strong>BASE PRICE</strong>
-												</p>
-												<p class="text-center">
-													<span>Available Soon</span>
-												</p>
-											</div>
-											<div class="col-xs-4">
-												<p class="brand-color text-center">
-													<strong>BOOKINGS</strong>
-												</p>
-												<p class=" text-center">
-													<button class="success-btn"> BOOK NOW</button>
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="col-xs-12 accordion-item">
-										<p class="text-center accordion-trigger"> 3 BHK BLISS </p>
-										<i class="fa fa-angle-down"></i>
-										<div class="content-hide row pin-content">
-											<div class="col-xs-4">
-												<p class="brand-color text-center">
-													<strong>CARPET AREA</strong>
-												</p>
-												<p class="text-center">
-													<span>950 sq. ft</span>
-												</p>
-
-											</div>
-											<div class="col-xs-4">
-												<p class="brand-color text-center">
-													<strong>BASE PRICE</strong>
-												</p>
-												<p class="text-center">
-													<span>Available Soon</span>
-												</p>
-											</div>
-											<div class="col-xs-4">
-												<p class="brand-color text-center">
-													<strong>BOOKINGS</strong>
-												</p>
-												<p class=" text-center">
-													<button class="success-btn"> BOOK NOW</button>
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>		
 					</div>
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-1 top-spacer section-bottom-spacer" style="opacity:0.2; border-bottom: 2px solid #9C2288;">

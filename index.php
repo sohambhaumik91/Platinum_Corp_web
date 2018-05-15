@@ -10,6 +10,8 @@
 		<link href="lib/slick/slick.css" rel="stylesheet">
 		<link href="lib/slick/slick-theme.css" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        
+        <link rel="icon" href="Favicon.ico/favicon-16x16.png" type="image/x-icon" />
 		
 	</head>
 	<body>
@@ -18,11 +20,11 @@
 		</div>
 		<div></div>
 		<div class="banner-content" >
-			<div class="banner-text"><p class="text-center banner-header">WELCOME TO PLATINUM CORP.</p><p class="text-center banner-subtext">Mumbai's trusted real estate investors, developers and managers. We are building a priceless lifestyle, just for you...</p></div>
+			<!--<div class="banner-text"><p class="text-center banner-header" style="color:black">WELCOME TO PLATINUM CORP.</p><p class="text-center banner-subtext" style="color:black">Mumbai's trusted real estate investors, developers and managers. We are building a priceless lifestyle, just for you...</p></div>-->
 			<div class="owl-carousel owl-theme" style="position: relative;">
-			    <div class="item"><img src="images/hose2.jpg"/></div>
-			    <div class="item"><img src="images/hose2.jpg"/> </div>
-			    <div class="item"><img src="images/hose2.jpg"/> </div>
+			    <div class="item"><img src="images/Welcome.png"/></div>
+			    <div class="item"><img src="images/Platinum Tower.jpg"/></div>
+			    <div class="item"><img src="images/Platinum Life.jpg"/></div>
 			</div>
 		</div>
 
@@ -67,13 +69,13 @@
 			</div>
 			<div class="row section-bottom-spacer">
 				<div class="col-sm-12 pc-section-header text-center">The priceless dream behind the vision</div>
-				<div class="col-md-6 col-xs-12 col-md-push-6 priceless-video">
-					<iframe width="100%" height="50%" src="https://www.youtube.com/embed/QBeUp-Y7XZA" frameborder="0" allowfullscreen></iframe>
-				</div>
-				<div class="col-md-6 col-xs-12 col-md-pull-6 vision-text">
+				<div class="col-sm-6">
 					<p class="pc-details-1 text-left default-font-size">Platinum Corp. represents a new age real estate development group, focused on delivering Hi-Tech Value Homes for modern day urban India across high-growth regions at affordable prices through flexible payment plans. </p>
 					<p class="pc-details-2 text-left default-font-size">Our promoters are highly qualified real estate professionals with a strong track record of delivering high quality projects on time. We are mentored and supported by some of the most well-known, large corporate houses and financial institutions of the country, who are continuously encouraging us to explore opportunities for growth.</p>
 					<p class="pc-details-2 text-left default-font-size">Our promoters are highly qualified real estate professionals with a strong track record of delivering high quality projects on time. We are mentored and supported by some of the most well-known, large corporate houses and financial institutions of the country, who are continuously encouraging us to explore opportunities for growth.</p>
+				</div>
+				<div class="col-sm-6">
+					<iframe width="100%" height="50%" src="https://www.youtube.com/embed/PkNoCpshl0k" frameborder="0" allowfullscreen></iframe>
 				</div>
 				
 			</div>
@@ -94,31 +96,31 @@
 				</div>
 				
 			</div>
-			<div class="row tables section-bottom-spacer hidden-xs hidden-sm">
-				<div class="col-sm-1"></div>
-				<div class="col-sm-2 text-center">
+			<div class="row tables section-bottom-spacer">
+				<!--<div class="col-sm-1"></div>-->
+				<div class="text-center">
 					<img class="award-img home-page-icons" style="vertical-align: bottom;" src="images/location.png"/>
 					<p class="Facilities-text">Prime Location</p>
 				</div>
-				<div class="col-sm-2 text-center">
+				<div class="text-center">
 					<img class="award-img home-page-icons" style="vertical-align: bottom;" src="images/spatial.png"/>
 					<p class="Facilities-text">Spatial Innovation</p>
 				</div>
-				<div class="col-sm-2 text-center">
+				<div class="text-center">
 					<img class="award-img home-page-icons" style="vertical-align: bottom;" src="images/quality.png"/>
 					<p class="Facilities-text">Quality Construction</p>
 				</div>
-				<div class="col-sm-2 text-center">
+				<div class="text-center">
 					<img class="award-img home-page-icons" style="vertical-align: bottom;" src="images/tech.png"/>
 					<p class="Facilities-text">	Hi-Tech Facilities</p>
 				</div>
-				<div class="col-sm-2 text-center">
+				<div class="text-center">
 					<img class="award-img home-page-icons" style="vertical-align: bottom;" src="images/payment.png"/>
 					<p class="Facilities-text">Easy Payment Plans</p>
 				</div>
 
 			</div>
-			<div class="row section-bottom-spacer hidden-md hidden-lg hidden-xl" id="amenities-slider">
+			<!--<div class="row section-bottom-spacer hidden-md hidden-lg hidden-xl" id="amenities-slider">
 				<div class="text-center">
 					<img class="mobile-amenities" style="vertical-align: bottom;" src="images/location.png"/>
 					<p class="Facilities-text">Prime Location</p>
@@ -139,7 +141,7 @@
 					<img class="mobile-amenities" style="vertical-align: bottom;" src="images/payment.png"/>
 					<p class="Facilities-text">Easy Payment Plans</p>
 				</div>	
-			</div>
+			</div>-->
 			<div class="row top-spacer">
 				<div class="col-sm-12 text-center pc-section-header">Our efforts don't go unnoticed</div>
 			</div>
